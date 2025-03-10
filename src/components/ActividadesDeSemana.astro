@@ -1,0 +1,65 @@
+---
+import CardEjercicio from './CardEjercicio.astro'
+import CardSecciones from './CardSecciones.astro'
+
+const { ejercicios } = Astro.props
+---
+
+<CardSecciones
+	title="Ejercicios"
+	id="ejercicios">
+	<ul class="m-auto">
+		{
+			ejercicios ? (
+				ejercicios.map(
+					({
+						name,
+						comentarios,
+						ejemploUrl,
+						classroom,
+						repoUrl,
+						defaultBranch,
+						fechaDeEntrega,
+						obligatorio,
+					}) => (
+						<li class="flex w-full justify-center">
+							<CardEjercicio
+								title={name}
+								comentarios={comentarios}
+								urlGitHub={classroom}
+								repoUrl={repoUrl}
+								ejemploUrl={ejemploUrl}
+								defaultBranch={defaultBranch}
+								fechaDeEntrega={fechaDeEntrega}
+								obligatorio={obligatorio}
+							/>
+						</li>
+					)
+				)
+			) : (
+				<p class="m-auto flex w-full">
+					<strong>Esta semana no hay ejercicios</strong>
+				</p>
+			)
+		}
+	</ul>
+</CardSecciones>
+
+<style lang="scss">
+	ul {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 1rem;
+		justify-items: center;
+
+		@media (min-width: 550px) {
+			grid-template-columns: repeat(1, 1fr);
+			grid-gap: 1rem;
+		}
+
+		@media (min-width: 950px) {
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 1rem;
+		}
+	}
+</style>

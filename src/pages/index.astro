@@ -1,0 +1,117 @@
+---
+import DefaultLayout from '@layouts/DefaultLayout.astro'
+import Hero from '@components/Hero.astro'
+import CardSecciones from '@/components/CardSecciones.astro'
+import { PATH_CURSADA } from '@/paths.js'
+
+---
+
+<DefaultLayout
+	title="Estrategias de Persistencia"
+	description="Universidad Nacional de Hurlingham, materia Programación con Estrategias de Persistencia"
+	author="Estrategias de Persistencia">
+	<Hero />
+	<section class="my-64">
+		<div class="container">
+			<CardSecciones>
+				<h2 class="mb-15 text-center text-4xl sm:text-6xl">¡Bienvenido/a!</h2>
+				<p class="text-center">
+					Si llegaste hasta este sitio es muy probable que estes inscripto en
+					Estrategias de Persistencia, de la Licenciatura en Informática de la
+					Universidad Nacional de Hurlingham. Aquí encontrarás casi todo lo
+					necesario para tu cursada. Decimos casi porque hay mucho material que
+					“vive” en otras páginas, pero este sitio funcionará como punto de
+					partida para llegar allí.
+				</p>
+				<p class="text-center">
+					Arrancamos el cuatrimestre con una modalidad de cursada mixta, donde
+					tendremos clases presenciales y virtuales. Hay que estar atento/a al <a
+						href="https://docs.google.com/spreadsheets/d/1IFqWeEwRPRYtWIvh96pIlhIU-KYdBD2N9BCtIaIfpno/edit?usp=sharing"
+						target="_blank"
+						>cronograma</a
+					> de la cursada por si en algún momento se hace algún cambio.
+				</p>
+				<p class="text-center">
+					Si ya viniste varias veces, probablemente quieras ir a la sección <a
+						href={PATH_CURSADA}>cursada</a
+					> o ver el <a href="/material">material</a> que tenemos disponible.
+				</p>
+				<p>
+					También vas a tener que instalarte Visual Code, IntelliJ IDEA y Git,
+					si no lo hiciste aún. En la sección <a href="/videos">Videos</a> encontrarás
+					los tutoriales para hacerlo.
+				</p>
+			</CardSecciones>
+
+			<CardSecciones title="Canales de comunicación">
+				<p>
+					Vamos a utilizar esta página para subir material, fechas importantes y
+					todo lo relacionado a la cursada. Tal vez sea una buena idea agregarla
+					a los favoritos de tu navegador.
+				</p>
+				<p class="text-left">
+					Para tener una comunicación más fluida vamos a utilizar un canal de <a
+						href="https://www.discordapp.com/">Discord</a
+					>.
+				</p>
+				<ul>
+					<li class="list-disc">
+						Si aún no tenes cuenta debes registrarte ingresando <a
+							href="https://www.discordapp.com/"
+							target="_blank"
+							>aquí</a
+						>
+					</li>
+					<li class="list-disc">
+						Una vez registrado y dentro de Discord, por única vez y si no lo
+						hiciste antes, debes entrar a este link y asegurarte de Aceptar la
+						invitación al servidor de la carrera <a
+							href="https://discord.gg/tqyHtPt"
+							target="_blank"
+							>InformaticaUNAHUR</a
+						>.
+					</li>
+					<li class="list-disc">
+						Luego, siguiendo este enlace: <a
+							href="https://discord.com/channels/656909199510601744/1088949265306501130"
+							target="_blank"
+							>matricularse-materias-discord</a
+						> podrás matricularte en los canales de las materias que estés cursando
+						reaccionando a la letra que corresponda a cada una. Para esta materia,
+						corresponde <b>(759) Estrategias de Persistencia</b>. Asegurate de
+						hacerlo solo 1 vez, ya que si le das varias veces click te vas a
+						desmatricular y no vas a poder ver los canales de la materia.
+					</li>
+				</ul>
+				<p class="text-left">
+					Aunque toda la comunicación sobre la materia irá apareciendo en esta
+					página, por si llegaste hasta acá desde un enlace externo a la Unahur,
+					te dejamos el link al <a
+						href="https://campus2024.unahur.edu.ar/login/index.php"
+						>campus de la Universidad</a
+					>. Es importante que también lo revises regularmente si sos estudiante
+					de esta Universidad.
+				</p>
+			</CardSecciones>
+		</div>
+	</section>
+</DefaultLayout>
+
+<style>
+	p {
+		margin-top: 0.7rem;
+		margin-bottom: 0.7rem;
+	}
+	h2 {
+		margin-bottom: 1.5rem;
+	}
+
+	a {
+		transition: transform 0.2s ease-in-out;
+		cursor: pointer;
+	}
+
+	a:hover {
+		transform: scale(1.1);
+	}
+</style>
