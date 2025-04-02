@@ -1,0 +1,28 @@
+---
+interface Props {
+	categorias: {
+		id: string
+		titulo: string
+	}[]
+	title: string
+}
+
+const { categorias, title } = Astro.props
+---
+
+<div>
+	<div class="pt-3 text-center text-lg font-bold">{title}</div>
+	<ul class="pt-4 text-center">
+		{
+			categorias.map((categoria) => (
+				<li class="my-3">
+					<a
+						href={`#${categoria.id}`}
+						class="text-gray-800 hover:text-black dark:text-gray-300 dark:hover:text-white">
+						{categoria.titulo}
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</div>

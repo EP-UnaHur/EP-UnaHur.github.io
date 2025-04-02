@@ -1,0 +1,64 @@
+---
+import { Icon } from 'astro-icon/components'
+
+interface Recurso {
+	descripcion: string
+	url: string
+}
+
+interface Props {
+	recursos: Recurso[]
+}
+
+const { recursos } = Astro.props
+---
+
+<article id="links">
+	{
+		recursos.map((recurso, index) => (
+			<>
+				<p
+					id={`desc-${index}`}
+					class="flex items-center">
+					{recurso.descripcion}
+				</p>
+				<a
+					id={`link-${index}`}
+					href={recurso.url}
+					target="_blank"
+					class="rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700">
+					Ver recurso
+					<Icon name="ion:arrow-up-right-box-outline" />
+				</a>
+			</>
+		))
+	}
+</article>
+
+<style lang="scss">
+	#links {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: 1.5fr 0.3fr;
+
+		@media (max-width: 1000px) {
+			grid-template-columns: 1fr;
+			grid-gap: 1rem;
+		}
+
+		a {
+			transition: transform 0.2s ease-in-out;
+			margin: auto;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 1.25rem;
+
+			&:hover {
+				transform: scale(1.05);
+			}
+		}
+	}
+</style>
