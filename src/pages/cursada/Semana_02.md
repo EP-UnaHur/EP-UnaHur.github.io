@@ -2,49 +2,37 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 2
 
-inicio: 2025-08-19
+inicio: 2025-04-07
 
-descripcion: En esta semana, vamos a asegurarnos de realizar la instalación y configuración completa de las herramientas que utilizaremos durante la cursada.
+importante: Los equipos deben cargarse en la planilla "Equipos" con un mínimo de 3 y un máximo de 5 integrantes. Todos los miembros deben pertenecer a la misma comisión. En caso de equipos con integrantes de distintas comisiones, el equipo completo deberá asistir a la comisión que tenga más miembros registrados originalmente. Por ejemplo, si en un equipo de 5 personas hay 3 de la Comisión 1 y 2 de la Comisión 2, todos asistirán a la Comisión 1. Por esto, cada integrante debe completar en la planilla la columna "Comisión asistiré" según corresponda.
 
-atencion: Esta semana no habrá clases los días martes 20/8 y miércoles 21/8, con motivo del paro docente y no docente anunciado. El sábado hay clase virtual normal.
+descripcion: En esta semana hacemos foco en el entorno de ejecución que usaremos durante la cursada.
 
 horarios:
-  - Comision: Comisión 1A T.Noche
-    Dia: Martes 20 de Agosto
+  - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
+    Dia: Lunes 07 de Abril
+    Modalidad: Presencial
+    Aula:
+    Hora: 18.15hs
+    Edificio: (Edificio Malvinas Argentinas, 1er piso)
+
+  - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
+    Dia: Lunes 07 de Abril
+    Modalidad: Virtual
     Hora: 18.00hs
-    Mensaje: NO HAY CLASES POR PARO
-
-  - Comision: Comisión 1B T.Noche
-    Dia: Martes 20 de Agosto
-    Hora: 18.00hs
-    Mensaje: NO HAY CLASES POR PARO
-
-  - Comision: Comisión 2 T.Mañana
-    Dia: Miércoles 21 de Agosto
-    Hora: 08.00hs
-    Mensaje: NO HAY CLASES POR PARO
-
-  - Comision: Comisiones 1A, 1B y 2
-    Dia: Sábado 24 de Agosto
-    Modalidad: VIRTUAL
-    Hora: 10.00hs
-    URL: https://us06web.zoom.us/j/81450588625
+    URL: https://meet.google.com/hkv-kcwq-oty
 
 videos:
-  - nombre: Instalación Wollok en Windows
-    urlYoutube: https://www.youtube.com/watch?v=kPxbjL7WUHc
-  - nombre: Instalación Wollok en Linux
-    urlYoutube: https://www.youtube.com/watch?v=DCG-syufqhU
-  - nombre: Grabación clase Sábado 24/8/24
-    urlYoutube: https://www.youtube.com/watch?v=DbF44E-wRh0
+  - nombre: Docker Básico
+    urlYoutube: https://www.youtube.com/watch?v=CV_Uf3Dq-EU&t=185s
 ---
 
-- En esta semana, vamos a asegurarnos de realizar la instalación y configuración completa de las herramientas que utilizaremos durante la cursada.
+- Link a la planilla donde deberan cargar de <a href="https://docs.google.com/spreadsheets/d/1FlSAHBPON9jCX9R63odobxGcQIQyxt5or1UqUAfmkGc/edit?usp=sharing" target="_blank">Equipos</a>
 
-- El lenguaje que usaremos se llama Wollok. Wollok es un lenguaje de programación para ser utilizado en el dictado de materias iniciales de programación orientada a objetos. Es un proyecto open source desarrollado por Fundación Uqbar, un grupo de docentes de distintas universidades nacionales de Argentina, para ser usado en sus clases. Lleva 7 años en las aulas y se estima que lo usaron más de 100 docentes y más de 4.200 estudiantes. Incluye la propuesta Wollok Game, que propone ir adquiriendo los conceptos del paradigma orientado a objetos junto con el diseño de un juego didáctico, que en las clases siguientes les iremos contando.
+- En esta semana veremos el entorno de ejecución que usaremos para correr javascript del lado del servidor y también otras herramientas que utilizaremos durante la cursada, como por ejemplo DOCKER.
 
-- Las instrucciones de instalación las encuentran en los <a href="/videos" target="_blank">Videos</a>
-  y <a href="https://www.wollok.org/getting_started/installation/" target="_blank">Wollok docs Instalación</a>
-  que están disponibles en esta página en la sección **Utilidad**▼.
+- Node.js es un entorno de ejecución de JavaScript del lado del servidor que permite a los desarrolladores ejecutar código JavaScript fuera de un navegador web. Node.js se basa en el motor V8 de JavaScript de Google Chrome, que convierte código JavaScript en código máquina, lo que hace que Node.js sea muy rápido y eficiente.
+
+- Les dejamos un video del Pelado Nerd que en 1 hora explica la mayor parte de las cosas que se pueden hacer con docker de manera fácil, sencilla y divertida y que vamos a utilizar mucho en nuestra materia.
 
 - También deberán instalarse GIT como herramienta para el control de versiones del código que van a ir produciendo. El manejo que necesitan para esta materia es el básico, y está explicado en varias guías que están en la sección <a href="/material#ComandosBasicos" target="_blank">**Utilidad**▼ Material> ComandosGit</a>

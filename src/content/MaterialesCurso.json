@@ -1,52 +1,64 @@
 {
-  "categorias": [
-    {
-      "id": "git",
-      "titulo": "Git",
-      "descripcion": "En esta materia utilizamos Git como herramienta para el control de versiones del código que vas a ir produciendo. El manejo que necesitás es básico, y está explicado en la guía rápida que te ofrecemos más abajo. El resto de los recursos pueden serte útiles si querés profundizar en el conocimiento de la herramienta.",
-      "mostrarComandos": true,
-      "recursos": [
-        {
-          "descripcion": "Guía rápida de cómo usar Git - Lo mínimo que tenés que saber para poder trabajar.",
-          "url": "https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
-        },
-        {
-          "descripcion": "Apunte sobre Git - Un poco más extenso que el anterior, explica con más detalle algunos comandos.",
-          "url": "https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
-        },
-        {
-          "descripcion": "Tutorial interactivo de Git - Mucho más completo que los anteriores. Funciona sin conexión a internet, hay que instalarlo e incluye una primera parte que explica cómo bajarse Git. Por defecto viene en inglés pero se puede poner en español.",
-          "url": "https://github.com/jlord/git-it-electron"
-        },
-        {
-          "descripcion": "Machete de comandos de Git - Resumen de los comandos más utilizados de GIT.",
-          "url": "/pdf/ComandosBasicosDeGit.pdf"
-        }
-      ]
-    },
-    {
-      "id": "javascript",
-      "titulo": "Javascript",
-      "descripcion": "JavaScript es un lenguaje de programación interpretado y orientado a objetos que permite crear interactividad en páginas web. En esta materia lo utilizaremos junto con Node.js para el desarrollo de APIs.",
-      "mostrarComandos": false,
-      "recursos": [
-        {
-          "descripcion": "Apunte complementario de JavaScript - Conceptos fundamentales y particularidades del lenguaje.",
-          "url": "/pdf/apunte-complementario-js.pdf"
-        }
-      ]
-    },
-    {
-      "id": "docker",
-      "titulo": "Docker",
-      "descripcion": "Docker es una plataforma de contenedores que nos permite crear, distribuir y ejecutar aplicaciones en entornos aislados. A continuación encontrarás recursos útiles.",
-      "mostrarComandos": false,
-      "recursos": [
-        {
-          "descripcion": "Introducción a Docker - Conceptos básicos sobre Docker y contenedores.",
-          "url": "/pdf/01-intro-docker.pdf"
-        }
-      ]
-    }
-  ]
+	"categorias": [
+		{
+			"id": "git",
+			"titulo": "Git",
+			"descripcion": "En esta materia utilizamos Git como herramienta para el control de versiones del código que vas a ir produciendo. El manejo que necesitás es básico, y está explicado en la guía rápida que te ofrecemos más abajo. El resto de los recursos pueden serte útiles si querés profundizar en el conocimiento de la herramienta.",
+			"mostrarComandos": true,
+			"recursos": [
+				{
+					"descripcion": "Guía rápida de cómo usar Git - Lo mínimo que tenés que saber para poder trabajar.",
+					"url": "https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
+				},
+				{
+					"descripcion": "Apunte sobre Git - Un poco más extenso que el anterior, explica con más detalle algunos comandos.",
+					"url": "https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
+				},
+				{
+					"descripcion": "Tutorial interactivo de Git - Mucho más completo que los anteriores. Funciona sin conexión a internet, hay que instalarlo e incluye una primera parte que explica cómo bajarse Git. Por defecto viene en inglés pero se puede poner en español.",
+					"url": "https://github.com/jlord/git-it-electron"
+				},
+				{
+					"descripcion": "Machete de comandos de Git - Resumen de los comandos más utilizados de GIT.",
+					"url": "/pdf/ComandosBasicosDeGit.pdf"
+				}
+			]
+		},
+		{
+			"id": "javascript",
+			"titulo": "Javascript",
+			"descripcion": "JavaScript es un lenguaje de programación interpretado y orientado a objetos que permite crear interactividad en páginas web. En esta materia lo utilizaremos junto con Node.js para el desarrollo de APIs.",
+			"mostrarComandos": false,
+			"recursos": [
+				{
+					"descripcion": "Apunte complementario de JavaScript - Conceptos fundamentales y particularidades del lenguaje.",
+					"url": "/pdf/apunte-complementario-js.pdf"
+				}
+			]
+		},
+		{
+			"id": "nodejs",
+			"titulo": "NodeJs",
+			"descripcion": "Node.js es un entorno de ejecución de JavaScript del lado del servidor que permite a los desarrolladores ejecutar código JavaScript fuera de un navegador web. Node.js se basa en el motor V8 de JavaScript de Google Chrome, que convierte código JavaScript en código máquina, lo que hace que Node.js sea muy rápido y eficiente.",
+			"mostrarComandos": false,
+			"recursos": [
+				{
+					"descripcion": "Presentación de introducción a NodeJS",
+					"url": "https://docs.google.com/presentation/d/1OYBaPTrnBPUy1_hhfDZ87QR_ZLiVLdIfmdCRjbwNJ_A/edit?usp=sharing"
+				}
+			]
+		},
+		{
+			"id": "docker",
+			"titulo": "Docker",
+			"descripcion": "Docker es una plataforma de contenedores que nos permite crear, distribuir y ejecutar aplicaciones en entornos aislados. A continuación encontrarás recursos útiles.",
+			"mostrarComandos": false,
+			"recursos": [
+				{
+					"descripcion": "Introducción a Docker - Conceptos básicos sobre Docker y contenedores.",
+					"url": "/pdf/01-intro-docker.pdf"
+				}
+			]
+		}
+	]
 }
