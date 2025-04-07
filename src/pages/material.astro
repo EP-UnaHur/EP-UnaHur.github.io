@@ -36,21 +36,23 @@ const { comandosBasicGit } = elementosComunes[0].frontmatter
 						id={categoria.id}>
 						<p>{categoria.descripcion}</p>
 
-						{categoria.mostrarComandos && (
+						{categoria.comandos.length > 0 && (
 							<>
 								<p>
 									Acá van a poder ver los comandos mas comunes que estaremos
 									utilizando:
 								</p>
 								<SeccionListaCopyCode
-									id="ComandosBasicos"
-									title="Comandos basicos de Git"
-									lista={comandosBasicGit}
+									id={`Comandos${categoria.id}`}
+									title={`Comandos básicos de ${categoria.titulo}`}
+									lista={categoria.comandos}
 								/>
-								<center>
-									<b>Aclaración</b>: El "--global" SOLO se utiliza en PC
-									PERSONALES, NO en la Universidad.
-								</center>
+								{categoria.id === 'git' && (
+									<center>
+										<b>Aclaración</b>: El "--global" SOLO se utiliza en PC
+										PERSONALES, NO en la Universidad.
+									</center>
+								)}
 								<Separador />
 							</>
 						)}
