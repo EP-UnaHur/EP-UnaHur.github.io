@@ -15,7 +15,7 @@ horarios:
     Dia: Lunes 07 de Abril
     Modalidad: Vitual
     Hora: 18.05
-    URL: https://meet.google.com/hkv-kcwq-oty
+    URL: https://meet.google.com/aya-vaia-hoo
 
 videos:
   - nombre: Docker Básico
