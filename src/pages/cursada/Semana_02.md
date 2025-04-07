@@ -4,22 +4,17 @@ title: Semana 2
 
 inicio: 2025-04-07
 
+atencion: Esta semana, ambas comisiones tendremos clases juntas en forma virtual.
+
 importante: Los equipos deben cargarse en la planilla "Equipos" con un mínimo de 3 y un máximo de 5 integrantes. Todos los miembros deben pertenecer a la misma comisión. En caso de equipos con integrantes de distintas comisiones, el equipo completo deberá asistir a la comisión que tenga más miembros registrados originalmente. Por ejemplo, si en un equipo de 5 personas hay 3 de la Comisión 1 y 2 de la Comisión 2, todos asistirán a la Comisión 1. Por esto, cada integrante debe completar en la planilla la columna "Comisión asistiré" según corresponda.
 
 descripcion: En esta semana hacemos foco en el entorno de ejecución que usaremos durante la cursada.
 
 horarios:
-  - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
+  - Comision: Ambas comisiones 1 y 2
     Dia: Lunes 07 de Abril
-    Modalidad: Presencial
-    Aula:
-    Hora: 18.15hs
-    Edificio: (Edificio Malvinas Argentinas, 1er piso)
-
-  - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
-    Dia: Lunes 07 de Abril
-    Modalidad: Virtual
-    Hora: 18.00hs
+    Modalidad: Vitual
+    Hora: 18.05
     URL: https://meet.google.com/hkv-kcwq-oty
 
 videos:
