@@ -18,12 +18,11 @@ horarios:
     URL: https://meet.google.com/aya-vaia-hoo
 
 videos:
-
- - nombre: EP - Intro NodeJs - Promesas - Express - Parte I
+  - nombre: EP - Intro NodeJs - Promesas - Express - Parte I
     urlYoutube: https://www.youtube.com/watch?v=XjzRrlw8LV0
- - nombre: EP - Intro NodeJs - Promesas - Express - Parte II
+  - nombre: EP - Intro NodeJs - Promesas - Express - Parte II
     urlYoutube: https://www.youtube.com/watch?v=uPxw8etKSsg
- - nombre: Docker Básico
+  - nombre: Docker Básico
     urlYoutube: https://www.youtube.com/watch?v=CV_Uf3Dq-EU&t=185s
 ---
 
