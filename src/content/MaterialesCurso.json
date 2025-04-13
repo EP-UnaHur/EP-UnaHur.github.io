@@ -1,192 +1,221 @@
 {
-  "categorias": [
-    {
-      "id": "git",
-      "titulo": "Git",
-      "descripcion": "En esta materia utilizamos Git como herramienta para el control de versiones del código que vas a ir produciendo. El manejo que necesitás es básico, y está explicado en la guía rápida que te ofrecemos más abajo. El resto de los recursos pueden serte útiles si querés profundizar en el conocimiento de la herramienta.",
-      "comandos": [
-        {
-          "titulo": "Clonar repositorio",
-          "descripcion": "Nos permite crear una copia local del repositorio original (situado en GitHub).",
-          "codigo": "git clone [URL del repo original]"
-        },
-        {
-          "titulo": "Agregar archivos al área de preparación (staging area)",
-          "descripcion": "Con este comando agregamos todos los archivos que deben estar en el 'staging area', es decir, nos va a permitir 'preparar' aquellos archivos que modificamos para que los podamos 'enviar' a través del commit.",
-          "codigo": "git add * ."
-        },
-        {
-          "titulo": "Hacer commit de los cambios",
-          "descripcion": "Nos permite 'actualizar' nuestro repositorio local con aquellos cambios que hayamos realizado. En la parte de 'mensaje' debemos aclarar de manera descriptiva aquello que hayamos modificado, por ejemplo 'git commit -m 'Modifiqué los errores que tenía en la resolución de mi ejercicio'",
-          "codigo": "git commit -m 'mensaje'"
-        },
-        {
-          "titulo": "Subir cambios al repositorio remoto",
-          "descripcion": "Esto nos posibilita actualizar el repositorio original que tenemos en GitHub con aquellos cambios que hicimos en nuestro repositorio local. En '[rama]' debemos especificar si se trata de main o master, por ejemplo 'git push origin master'",
-          "codigo": "git push origin [rama]"
-        },
-        {
-          "titulo": "Obtener cambios del repositorio remoto",
-          "descripcion": "Nos permite bajar de GitHub todos los cambios que recibió nuestro proyecto. Nos servirá cuando trabajemos en grupo y otra persona realice cambios en el mismo. De esta manera tendremos la versión más reciente del proyecto de manera local.",
-          "codigo": "git pull"
-        },
-        {
-          "titulo": "Configurar nombre de usuario global",
-          "descripcion": "Ponemos nuestro usuario luego de 'user.name' y cargamos nuestro usuario en nuestra PC PERSONAL.",
-          "codigo": "git config --global user.name"
-        },
-        {
-          "titulo": "Configurar correo electrónico global",
-          "descripcion": "Ponemos nuestro mail luego de 'user.email' y cargamos nuestro mail en nuestra PC PERSONAL.",
-          "codigo": "git config --global user.email"
-        }
-      ],
-      "recursos": [
-        {
-          "descripcion": "Guía rápida de cómo usar Git - Lo mínimo que tenés que saber para poder trabajar.",
-          "url": "https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
-        },
-        {
-          "descripcion": "Apunte sobre Git - Un poco más extenso que el anterior, explica con más detalle algunos comandos.",
-          "url": "https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
-        },
-        {
-          "descripcion": "Tutorial interactivo de Git - Mucho más completo que los anteriores. Funciona sin conexión a internet, hay que instalarlo e incluye una primera parte que explica cómo bajarse Git. Por defecto viene en inglés pero se puede poner en español.",
-          "url": "https://github.com/jlord/git-it-electron"
-        },
-        {
-          "descripcion": "Machete de comandos de Git - Resumen de los comandos más utilizados de GIT.",
-          "url": "/pdf/ComandosBasicosDeGit.pdf"
-        }
-      ]
-    },
-    {
-      "id": "javascript",
-      "titulo": "Javascript",
-      "descripcion": "JavaScript es un lenguaje de programación interpretado y orientado a objetos que permite crear interactividad en páginas web. En esta materia lo utilizaremos junto con Node.js para el desarrollo de APIs.",
-      "comandos": [],
-      "recursos": [
-        {
-          "descripcion": "Apunte complementario de JavaScript - Conceptos fundamentales y particularidades del lenguaje.",
-          "url": "/pdf/apunte-complementario-js.pdf"
-        }
-      ]
-    },
-    {
-      "id": "nodejs",
-      "titulo": "NodeJs",
-      "descripcion": "Node.js es un entorno de ejecución de JavaScript del lado del servidor que permite a los desarrolladores ejecutar código JavaScript fuera de un navegador web. Node.js se basa en el motor V8 de JavaScript de Google Chrome, que convierte código JavaScript en código máquina, lo que hace que Node.js sea muy rápido y eficiente.",
-      "comandos": [
-        {
-          "titulo": "Ver versión de Node.js",
-          "descripcion": "Muestra la versión de Node.js instalada",
-          "codigo": "node -v"
-        },
-        {
-          "titulo": "Ver versión de npm",
-          "descripcion": "Muestra la versión de npm instalada",
-          "codigo": "npm -v"
-        },
-        {
-          "titulo": "Inicializar proyecto con preguntas",
-          "descripcion": "Inicia el proyecto con preguntas interactivas",
-          "codigo": "npm init"
-        },
-        {
-          "titulo": "Inicializar proyecto con valores por defecto",
-          "descripcion": "Inicia el proyecto automáticamente con configuraciones por defecto",
-          "codigo": "npm init -y"
-        },
-        {
-          "titulo": "Ejecutar app con Node.js",
-          "descripcion": "Inicia el archivo principal del proyecto",
-          "codigo": "node index.js"
-        },
-        {
-          "titulo": "Instalar un paquete como dependencia",
-          "descripcion": "Instala un paquete en la sección de dependencias",
-          "codigo": "npm i [nombre-paquete]"
-        },
-        {
-          "titulo": "Instalar Express",
-          "descripcion": "Instala el framework Express como ejemplo",
-          "codigo": "npm i express"
-        },
-        {
-          "titulo": "Instalar paquete solo para desarrollo",
-          "descripcion": "Instala un paquete solo para desarrollo",
-          "codigo": "npm i -D [nombre-paquete]"
-        },
-        {
-          "titulo": "Instalar nodemon como dependencia de desarrollo",
-          "descripcion": "Instala nodemon para recargar la app automáticamente en desarrollo",
-          "codigo": "npm i -D nodemon"
-        },
-        {
-          "titulo": "Ejecutar script start",
-          "descripcion": "Ejecuta el script 'start' configurado en package.json",
-          "codigo": "npm start"
-        },
-        {
-          "titulo": "Ejecutar script dev",
-          "descripcion": "Ejecuta el script 'dev' configurado en package.json",
-          "codigo": "npm run dev"
-        },
-        {
-          "titulo": "Ejecutar app con nodemon",
-          "descripcion": "Inicia el archivo principal del proyecto y lo recarga al guardar cambios",
-          "codigo": "nodemon index.js"
-        },
-        {
-          "titulo": "Instalar todas las dependencias",
-          "descripcion": "Instala todas las dependencias del archivo package.json",
-          "codigo": "npm i"
-        },
-        {
-          "titulo": "Desinstalar un paquete",
-          "descripcion": "Elimina un paquete de node_modules y package.json",
-          "codigo": "npm uninstall [nombre-paquete]"
-        }
-      ],
-      "recursos": [
-        {
-          "descripcion": "Presentación de introducción a NodeJS",
-          "url": "https://docs.google.com/presentation/d/1OYBaPTrnBPUy1_hhfDZ87QR_ZLiVLdIfmdCRjbwNJ_A/edit?usp=sharing"
-        }
-      ]
-    },
-    {
-      "id": "docker",
-      "titulo": "Docker",
-      "descripcion": "Docker es una plataforma de contenedores que nos permite crear, distribuir y ejecutar aplicaciones en entornos aislados. A continuación encontrarás recursos útiles.",
-      "comandos": [
-        {
-          "titulo": "Listar imágenes",
-          "descripcion": "Muestra todas las imágenes de Docker disponibles localmente",
-          "codigo": "docker images"
-        },
-        {
-          "titulo": "Listar contenedores",
-          "descripcion": "Muestra los contenedores en ejecución",
-          "codigo": "docker ps"
-        },
-        {
-          "titulo": "Ejecutar contenedor",
-          "descripcion": "Inicia un nuevo contenedor basado en una imagen",
-          "codigo": "docker run [nombre-imagen]"
-        },
-        {
-          "titulo": "Iniciar/Detener contenedor",
-          "descripcion": "Inicia o detiene un contenedor existente",
-          "codigo": "docker start/stop [contenedor]"
-        }
-      ],
-      "recursos": [
-        {
-          "descripcion": "Introducción a Docker - Conceptos básicos sobre Docker y contenedores.",
-          "url": "/pdf/01-intro-docker.pdf"
-        }
-      ]
-    }
-  ]
+	"categorias": [
+		{
+			"id": "git",
+			"titulo": "Git",
+			"descripcion": "En esta materia utilizamos Git como herramienta para el control de versiones del código que vas a ir produciendo. El manejo que necesitás es básico, y está explicado en la guía rápida que te ofrecemos más abajo. El resto de los recursos pueden serte útiles si querés profundizar en el conocimiento de la herramienta.",
+			"comandos": [
+				{
+					"titulo": "Clonar repositorio",
+					"descripcion": "Nos permite crear una copia local del repositorio original (situado en GitHub).",
+					"codigo": "git clone [URL del repo original]"
+				},
+				{
+					"titulo": "Agregar archivos al área de preparación (staging area)",
+					"descripcion": "Con este comando agregamos todos los archivos que deben estar en el 'staging area', es decir, nos va a permitir 'preparar' aquellos archivos que modificamos para que los podamos 'enviar' a través del commit.",
+					"codigo": "git add * ."
+				},
+				{
+					"titulo": "Hacer commit de los cambios",
+					"descripcion": "Nos permite 'actualizar' nuestro repositorio local con aquellos cambios que hayamos realizado. En la parte de 'mensaje' debemos aclarar de manera descriptiva aquello que hayamos modificado, por ejemplo 'git commit -m 'Modifiqué los errores que tenía en la resolución de mi ejercicio'",
+					"codigo": "git commit -m 'mensaje'"
+				},
+				{
+					"titulo": "Subir cambios al repositorio remoto",
+					"descripcion": "Esto nos posibilita actualizar el repositorio original que tenemos en GitHub con aquellos cambios que hicimos en nuestro repositorio local. En '[rama]' debemos especificar si se trata de main o master, por ejemplo 'git push origin master'",
+					"codigo": "git push origin [rama]"
+				},
+				{
+					"titulo": "Obtener cambios del repositorio remoto",
+					"descripcion": "Nos permite bajar de GitHub todos los cambios que recibió nuestro proyecto. Nos servirá cuando trabajemos en grupo y otra persona realice cambios en el mismo. De esta manera tendremos la versión más reciente del proyecto de manera local.",
+					"codigo": "git pull"
+				},
+				{
+					"titulo": "Configurar nombre de usuario global",
+					"descripcion": "Ponemos nuestro usuario luego de 'user.name' y cargamos nuestro usuario en nuestra PC PERSONAL.",
+					"codigo": "git config --global user.name"
+				},
+				{
+					"titulo": "Configurar correo electrónico global",
+					"descripcion": "Ponemos nuestro mail luego de 'user.email' y cargamos nuestro mail en nuestra PC PERSONAL.",
+					"codigo": "git config --global user.email"
+				}
+			],
+			"recursos": [
+				{
+					"descripcion": "Guía rápida de cómo usar Git - Lo mínimo que tenés que saber para poder trabajar.",
+					"url": "https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
+				},
+				{
+					"descripcion": "Apunte sobre Git - Un poco más extenso que el anterior, explica con más detalle algunos comandos.",
+					"url": "https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit"
+				},
+				{
+					"descripcion": "Tutorial interactivo de Git - Mucho más completo que los anteriores. Funciona sin conexión a internet, hay que instalarlo e incluye una primera parte que explica cómo bajarse Git. Por defecto viene en inglés pero se puede poner en español.",
+					"url": "https://github.com/jlord/git-it-electron"
+				},
+				{
+					"descripcion": "Machete de comandos de Git - Resumen de los comandos más utilizados de GIT.",
+					"url": "/pdf/ComandosBasicosDeGit.pdf"
+				}
+			]
+		},
+		{
+			"id": "javascript",
+			"titulo": "Javascript",
+			"descripcion": "JavaScript es un lenguaje de programación interpretado y orientado a objetos que permite crear interactividad en páginas web. En esta materia lo utilizaremos junto con Node.js para el desarrollo de APIs.",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "Apunte complementario de JavaScript - Conceptos fundamentales y particularidades del lenguaje.",
+					"url": "/pdf/apunte-complementario-js.pdf"
+				}
+			]
+		},
+		{
+			"id": "docker",
+			"titulo": "Docker",
+			"descripcion": "Docker es una plataforma de contenedores que nos permite crear, distribuir y ejecutar aplicaciones en entornos aislados. A continuación encontrarás recursos útiles.",
+			"comandos": [
+				{
+					"titulo": "Listar imágenes",
+					"descripcion": "Muestra todas las imágenes de Docker disponibles localmente",
+					"codigo": "docker images"
+				},
+				{
+					"titulo": "Listar contenedores",
+					"descripcion": "Muestra los contenedores en ejecución",
+					"codigo": "docker ps"
+				},
+				{
+					"titulo": "Ejecutar contenedor",
+					"descripcion": "Inicia un nuevo contenedor basado en una imagen",
+					"codigo": "docker run [nombre-imagen]"
+				},
+				{
+					"titulo": "Iniciar/Detener contenedor",
+					"descripcion": "Inicia o detiene un contenedor existente",
+					"codigo": "docker start/stop [contenedor]"
+				}
+			],
+			"recursos": [
+				{
+					"descripcion": "Introducción a Docker - Conceptos básicos sobre Docker y contenedores.",
+					"url": "/pdf/01-intro-docker.pdf"
+				}
+			]
+		},
+		{
+			"id": "nodejs",
+			"titulo": "NodeJs",
+			"descripcion": "Node.js es un entorno de ejecución de JavaScript del lado del servidor que permite a los desarrolladores ejecutar código JavaScript fuera de un navegador web. Node.js se basa en el motor V8 de JavaScript de Google Chrome, que convierte código JavaScript en código máquina, lo que hace que Node.js sea muy rápido y eficiente.",
+			"comandos": [
+				{
+					"titulo": "Ver versión de Node.js",
+					"descripcion": "Muestra la versión de Node.js instalada",
+					"codigo": "node -v"
+				},
+				{
+					"titulo": "Ver versión de npm",
+					"descripcion": "Muestra la versión de npm instalada",
+					"codigo": "npm -v"
+				},
+				{
+					"titulo": "Inicializar proyecto con preguntas",
+					"descripcion": "Inicia el proyecto con preguntas interactivas",
+					"codigo": "npm init"
+				},
+				{
+					"titulo": "Inicializar proyecto con valores por defecto",
+					"descripcion": "Inicia el proyecto automáticamente con configuraciones por defecto",
+					"codigo": "npm init -y"
+				},
+				{
+					"titulo": "Ejecutar app con Node.js",
+					"descripcion": "Inicia el archivo principal del proyecto",
+					"codigo": "node index.js"
+				},
+				{
+					"titulo": "Instalar un paquete como dependencia",
+					"descripcion": "Instala un paquete en la sección de dependencias",
+					"codigo": "npm i [nombre-paquete]"
+				},
+				{
+					"titulo": "Instalar Express",
+					"descripcion": "Instala el framework Express como ejemplo",
+					"codigo": "npm i express"
+				},
+				{
+					"titulo": "Instalar paquete solo para desarrollo",
+					"descripcion": "Instala un paquete solo para desarrollo",
+					"codigo": "npm i -D [nombre-paquete]"
+				},
+				{
+					"titulo": "Instalar nodemon como dependencia de desarrollo",
+					"descripcion": "Instala nodemon para recargar la app automáticamente en desarrollo",
+					"codigo": "npm i -D nodemon"
+				},
+				{
+					"titulo": "Ejecutar script start",
+					"descripcion": "Ejecuta el script 'start' configurado en package.json",
+					"codigo": "npm start"
+				},
+				{
+					"titulo": "Ejecutar script dev",
+					"descripcion": "Ejecuta el script 'dev' configurado en package.json",
+					"codigo": "npm run dev"
+				},
+				{
+					"titulo": "Ejecutar app con nodemon",
+					"descripcion": "Inicia el archivo principal del proyecto y lo recarga al guardar cambios",
+					"codigo": "nodemon index.js"
+				},
+				{
+					"titulo": "Instalar todas las dependencias",
+					"descripcion": "Instala todas las dependencias del archivo package.json",
+					"codigo": "npm i"
+				},
+				{
+					"titulo": "Desinstalar un paquete",
+					"descripcion": "Elimina un paquete de node_modules y package.json",
+					"codigo": "npm uninstall [nombre-paquete]"
+				}
+			],
+			"recursos": [
+				{
+					"descripcion": "Presentación de introducción a NodeJS",
+					"url": "https://docs.google.com/presentation/d/1OYBaPTrnBPUy1_hhfDZ87QR_ZLiVLdIfmdCRjbwNJ_A/edit?usp=sharing"
+				}
+			]
+		},
+
+		{
+			"id": "express",
+			"titulo": "Express",
+			"descripcion": "Express (o Express.js) es un framework web para Node.js que te permite crear servidores y manejar rutas y controladores de forma simple y rápida.",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "Rutas y Controladores",
+					"url": "https://docs.google.com/presentation/d/1F_f_G8KXPlcqX8AaZvLVYJ15wzC1qgtym0-oGnzl570/edit?usp=sharing"
+				}
+			]
+		},
+		{
+			"id": "sequelize",
+			"titulo": "ORM - Sequelize",
+			"descripcion": "Sequelize es un ORM (Object-Relational Mapper) para Node.js que permite interactuar con bases de datos SQL (como PostgreSQL, MySQL, SQLite y MSSQL) utilizando JavaScript en lugar de escribir directamente consultas SQL.",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "Intro Sequelize",
+					"url": "https://docs.google.com/presentation/d/1O68rmCN5jD85ZvV4fiNwlSfwkbW_un4aobL3ywVUoUg/edit?usp=sharing"
+				},
+				{
+					"descripcion": "Consultas Sequelize",
+					"url": "https://docs.google.com/presentation/d/1gCUrTP9qjf88OqWZxQSadXNEIts0KlIxTsfqsZf3nSs/edit?usp=sharing"
+				}
+			]
+		}
+	]
 }
