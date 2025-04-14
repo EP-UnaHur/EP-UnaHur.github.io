@@ -207,9 +207,14 @@
 			"descripcion": "Sequelize es un ORM (Object-Relational Mapper) para Node.js que permite interactuar con bases de datos SQL (como PostgreSQL, MySQL, SQLite y MSSQL) utilizando JavaScript en lugar de escribir directamente consultas SQL.",
 			"comandos": [
 				{
+					"titulo": "Instalar Sequelize",
+					"descripcion": "Instala la dependencia de Sequelize ",
+					"codigo": "npm install sequelize"
+				},
+				{
 					"titulo": "Instalar Sequelize CLI",
 					"descripcion": "Instala la dependencia de desarrollo Sequelize CLI",
-					"codigo": "npm install --save-dev sequelize-cli"
+					"codigo": "npm install --D sequelize-cli"
 				},
 				{
 					"titulo": "Inicializar Sequelize CLI",
