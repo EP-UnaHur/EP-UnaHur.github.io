@@ -18,7 +18,8 @@ horarios:
     Modalidad: PRESENCIAL
     Hora: 18.00hs
     Aula: MA-112
-    Edificio: Edificio Malvinas Argentias
+    Edificio: Edificio Malvinas Argentinas
+
 ejercicios:
   - name: Into a Express
     repoUrl: 'EP-UnaHur-2025C1/simple_poki' # Acá va la URL del repo sin el "https://github.com/"
