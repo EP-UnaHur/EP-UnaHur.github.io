@@ -47,6 +47,7 @@
     "src/**/*.{js,css,md,astro}": "prettier --write"
   },
   "dependencies": {
+    "EP-UnaHur": "file:",
     "marked": "^13.0.3"
   }
 }
