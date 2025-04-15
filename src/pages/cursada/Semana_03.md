@@ -20,11 +20,21 @@ horarios:
     Aula: MA-112
     Edificio: Edificio Malvinas Argentias
 ejercicios:
-  - name: Into a Express
-    repoUrl: 'EP-UnaHur-2025C1/simple_poki' # Acá va la URL del repo sin el "https://github.com/"
+  - name: Rutas y Controladores
+    repoUrl: 'EP-UnaHur-2025C1/rutas_and_controladores' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Intro a Express consumiendo un recurso externo con una Promesa.
+      - name: Repo trabajado en clase por la comisión 1. -Gerardo-
+  - name: Rutas y Controladores
+    repoUrl: 'lucasfigarola/productos' # Acá va la URL del repo sin el "https://github.com/"
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Repo trabajado en clase por la comisión 2. -Lucas-
+videos:
+  - nombre: Grabación 14/4/25 - Comisión 1 - Rutas y controladores - Parte I
+    urlYoutube: https://www.youtube.com/watch?v=vpf1d8uOu8Y
+  - nombre: Grabación 14/4/25 - Comisión 1 - Rutas y controladores - Parte II
+    urlYoutube: https://www.youtube.com/watch?v=TDeSVtpNTfQ
 ---
 
 - En esta semana, vamos a continuar aprendiendo sobre express pero intentaremos comenzar a trabajar sobre una base de datos relacional utilizando el ORM sequelize.
