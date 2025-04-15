@@ -21,15 +21,18 @@ horarios:
     Edificio: Edificio Malvinas Argentias
 ejercicios:
   - name: Rutas y Controladores
+    classroom: https://github.com/EP-UnaHur-2025C1/rutas_and_controladores
     repoUrl: 'EP-UnaHur-2025C1/rutas_and_controladores' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Repo trabajado en clase por la comisión 1. -Gerardo-
   - name: Rutas y Controladores
+    classroom: https://github.com/lucasfigarola/productos
     repoUrl: 'lucasfigarola/productos' # Acá va la URL del repo sin el "https://github.com/"
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Repo trabajado en clase por la comisión 2. -Lucas-
+
 videos:
   - nombre: Grabación 14/4/25 - Comisión 1 - Rutas y controladores - Parte I
     urlYoutube: https://www.youtube.com/watch?v=vpf1d8uOu8Y
