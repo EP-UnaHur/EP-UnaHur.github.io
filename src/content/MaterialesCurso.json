@@ -235,6 +235,10 @@
 				{
 					"descripcion": "Consultas Sequelize",
 					"url": "https://docs.google.com/presentation/d/1gCUrTP9qjf88OqWZxQSadXNEIts0KlIxTsfqsZf3nSs/edit?usp=sharing"
+				},
+				{
+					"descripcion": "Métodos de Sequelize",
+					"url": "https://drive.google.com/file/d/1EKpNmttDH600a9ar5p1QQAsC0P9fI3Kb/view"
 				}
 			]
 		}
