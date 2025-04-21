@@ -18,7 +18,7 @@ horarios:
     Dia: Lunes 21 de Abril
     Modalidad: VIRTUAL
     Hora: 18.05
-    URL:
+    URL: https://meet.google.com/irv-giiv-wjd
 ---
 
 - Esta semana vamos a seguir trbajando con el ORM Sequelize. Recuerden que ORM son las siglas de Object Relational Mapping, que en español significa "mapeo objeto-relacional".
