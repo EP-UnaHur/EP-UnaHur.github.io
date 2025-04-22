@@ -22,15 +22,11 @@ horarios:
 
 ejercicios:
   - name: Rutas y Controladores
-    classroom: https://github.com/EP-UnaHur-2025C1/rutas_and_controladores
-    repoUrl: 'EP-UnaHur-2025C1/rutas_and_controladores' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
+    verEjercicio: https://github.com/EP-UnaHur-2025C1/rutas_and_controladores
     comentarios:
       - name: Repo trabajado en clase por la comisión 1. -Gerardo-
   - name: Rutas y Controladores
-    classroom: https://github.com/lucasfigarola/productos
-    repoUrl: 'lucasfigarola/productos' # Acá va la URL del repo sin el "https://github.com/"
-    defaultBranch: 'main' # Acá va la rama default del repo
+    verEjercicio: https://github.com/lucasfigarola/productos
     comentarios:
       - name: Repo trabajado en clase por la comisión 2. -Lucas-
 
