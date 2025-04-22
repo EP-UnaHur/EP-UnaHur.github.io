@@ -35,6 +35,10 @@ ejercicios:
     verEjercicio: https://github.com/lucasfigarola/sequelize-productos
     comentarios:
       - name: Repo trabajado en clase por la comisión 2. -Lucas-
+  - name: Intro Sequelize
+    verEjercicio: https://github.com/EP-UnaHur/IntroSeque
+    comentarios:
+      - name: Repo trabajado en clase por la comisión 1. -Gerardo-
 ---
 
 - Esta semana vamos a seguir trbajando con el ORM Sequelize. Recuerden que ORM son las siglas de Object Relational Mapping, que en español significa "mapeo objeto-relacional".
