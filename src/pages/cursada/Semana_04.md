@@ -19,6 +19,10 @@ horarios:
     Modalidad: VIRTUAL
     Hora: 18.05
     URL: https://meet.google.com/irv-giiv-wjd
+
+videos:
+  - nombre: EP - Intro Sequelize - Comisión 1 - Gerardo
+    urlYoutube: https://www.youtube.com/watch?v=bOC70vT4HDw
 ---
 
 - Esta semana vamos a seguir trbajando con el ORM Sequelize. Recuerden que ORM son las siglas de Object Relational Mapping, que en español significa "mapeo objeto-relacional".
