@@ -21,9 +21,9 @@ horarios:
     URL: https://meet.google.com/irv-giiv-wjd
 
 videos:
-  - nombre: EP - Intro Sequelize - Comisión 1 - Gerardo
+  - nombre: EP - Intro Sequelize Parte 1 - Comisión 1 - Gerardo
     urlYoutube: https://www.youtube.com/watch?v=bOC70vT4HDw
-  - nombre: EP - Intro Sequelize - Comisión 2 - Gerardo
+  - nombre: EP - Intro Sequelize Parte 2 - Comisión 1 - Gerardo
     urlYoutube: https://www.youtube.com/watch?v=8BWQtD9TQqE
   - nombre: EP - Intro Sequelize parte 1 - Comisión 2 - Lucas
     urlYoutube: https://www.youtube.com/watch?v=jDw8SdRbp7A
