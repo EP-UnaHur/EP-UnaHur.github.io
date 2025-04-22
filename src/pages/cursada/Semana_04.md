@@ -23,6 +23,16 @@ horarios:
 videos:
   - nombre: EP - Intro Sequelize - Comisión 1 - Gerardo
     urlYoutube: https://www.youtube.com/watch?v=bOC70vT4HDw
+  - nombre: EP - Intro Sequelize parte 1 - Comisión 2 - Lucas
+    urlYoutube: https://www.youtube.com/watch?v=jDw8SdRbp7A
+  - nombre: EP - Intro Sequelize parte 2 - Comisión 2 - Lucas
+    urlYoutube: https://www.youtube.com/watch?v=s5rn0kDgZ5w
+
+ejercicios:
+  - name: Intro Sequelize
+    verEjercicio: https://github.com/lucasfigarola/sequelize-productos
+    comentarios:
+      - name: Repo trabajado en clase por la comisión 2. -Lucas-
 ---
 
 - Esta semana vamos a seguir trbajando con el ORM Sequelize. Recuerden que ORM son las siglas de Object Relational Mapping, que en español significa "mapeo objeto-relacional".
