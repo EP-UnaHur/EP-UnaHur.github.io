@@ -26,9 +26,9 @@ videos:
   - nombre: EP - Intro Sequelize Parte 2 - Comisión 1 - Gerardo
     urlYoutube: https://www.youtube.com/watch?v=8BWQtD9TQqE
   - nombre: EP - Intro Sequelize parte 1 - Comisión 2 - Lucas
-    urlYoutube: https://www.youtube.com/watch?v=jDw8SdRbp7A
+    urlYoutube: https://www.youtube.com/watch?v=-2Iqv4KcfK0
   - nombre: EP - Intro Sequelize parte 2 - Comisión 2 - Lucas
-    urlYoutube: https://www.youtube.com/watch?v=s5rn0kDgZ5w
+    urlYoutube: https://www.youtube.com/watch?v=CLxBox7mdks
 
 ejercicios:
   - name: Intro Sequelize
