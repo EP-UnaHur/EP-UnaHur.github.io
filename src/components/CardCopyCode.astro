@@ -9,7 +9,8 @@ const { textToCopy } = Astro.props
 		class="relative flex min-h-11 items-start justify-between rounded-md bg-slate-300 text-white dark:bg-zinc-900">
 		<pre
 			id="code"
-			class="text-to-copy border-transparent p-2 text-sm text-black dark:text-gray-300 sm:text-base">{textToCopy}</pre>
+			class="text-to-copy w-full border-transparent p-2 text-sm text-black dark:text-gray-300 sm:text-base"
+			style="white-space: pre; overflow-x: auto; max-width: calc(100% - 40px);">{textToCopy}</pre>
 		<button
 			class="button-copy absolute right-0 top-0 h-11 rounded-md border-transparent px-3 text-gray-300 hover:bg-slate-400 dark:bg-zinc-900 dark:hover:bg-zinc-700"
 			><Icon
@@ -63,5 +64,27 @@ const { textToCopy } = Astro.props
 
 	.message-copy.show {
 		animation: fade-message 1s ease-in-out;
+	}
+
+	pre::-webkit-scrollbar {
+		height: 6px;
+	}
+
+	pre::-webkit-scrollbar-track {
+		background: rgba(0, 0, 0, 0.1);
+		border-radius: 3px;
+	}
+
+	pre::-webkit-scrollbar-thumb {
+		background: var(--action-color, #666);
+		border-radius: 3px;
+	}
+
+	.dark pre::-webkit-scrollbar-track {
+		background: rgba(255, 255, 255, 0.1);
+	}
+
+	.dark pre::-webkit-scrollbar-thumb {
+		background: var(--action-color, #999);
 	}
 </style>
