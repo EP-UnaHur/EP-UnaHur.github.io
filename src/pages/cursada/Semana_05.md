@@ -8,13 +8,13 @@ descripcion: Esta semana seguimos con sequeliza y arrancamos con middlewares y v
 
 horarios:
   - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
-    Dia: Lunes 14 de Abril
+    Dia: Lunes 28 de Abril
     Modalidad: VIRTUAL
     Hora: 18.15
     URL: https://meet.google.com/aya-vaia-hoo
 
   - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
-    Dia: Lunes 14 de Abril
+    Dia: Lunes 28 de Abril
     Modalidad: PRESENCIAL
     Hora: 18.00hs
     Aula: MA-112

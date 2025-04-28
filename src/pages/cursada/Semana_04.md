@@ -29,6 +29,8 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=-2Iqv4KcfK0
   - nombre: EP - Intro Sequelize parte 2 - Comisión 2 - Lucas
     urlYoutube: https://www.youtube.com/watch?v=CLxBox7mdks
+  - nombre: Clase de consultas
+    urlYoutube: https://www.youtube.com/watch?v=xXilumVWz9c
 
 ejercicios:
   - name: Intro Sequelize
