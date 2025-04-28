@@ -241,6 +241,18 @@
 					"url": "https://drive.google.com/file/d/1EKpNmttDH600a9ar5p1QQAsC0P9fI3Kb/view"
 				}
 			]
+		},
+		{
+			"id": "middlewares-Joi",
+			"titulo": "middlewares - Joi",
+			"descripcion": "Un middleware se encarga de hacer algo con esa solicitud antes de que llegue a su destino final. Puede ser algo como revisar que el usuario esté autenticado, registrar la solicitud en un archivo, o modificar la información que se envía. En cuanto a Joi es una biblioteca popular en Node.js que se utiliza para validar datos de una manera sencilla y declarativa. ",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "Intro middlewares - Joi",
+					"url": "https://docs.google.com/presentation/d/1goZr8Ix2a5ckBawpKCQrKctR_f5DK6roRFUtVhwKNRU/edit?usp=sharing"
+				}
+			]
 		}
 	]
 }
