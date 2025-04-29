@@ -19,6 +19,22 @@ horarios:
     Hora: 18.00hs
     Aula: MA-112
     Edificio: Edificio Malvinas Argentinas
+
+videos:
+  - nombre: EP - Middlewares - Gerardo - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=VXALBxXrwmk
+  - nombre: EP - Joi And Middlewares - Gerardo - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=V-m_1Q1DVV4
+
+ejercicios:
+  - name: Middlewares y Joi
+    verEjercicio: https://github.com/lucasfigarola/middleware-productos
+    comentarios:
+      - name: Repo trabajado en clase por la comisión 2. -Lucas-
+  - name: Middlewares y Joi
+    verEjercicio: https://github.com/EP-UnaHur/IntroSeque/tree/2804
+    comentarios:
+      - name: Repo trabajado en clase por la comisión 1. -Gerardo- Rama 2804
 ---
 
 - Esta semana vamos a continuar con sequealize y comenzaremos con middlewares y la validacion de schemas con Joi.
