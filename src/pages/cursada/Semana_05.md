@@ -34,7 +34,7 @@ ejercicios:
   - name: Middlewares y Joi
     verEjercicio: https://github.com/EP-UnaHur/IntroSeque/tree/2804
     comentarios:
-      - name: Repo trabajado en clase por la comisión 1. -Gerardo- Rama 2804
+      - name: Repo trabajado en clase por la comisión 1. Recuerden que trabajamos en la rama 2804 -Gerardo- Rama 2804
 ---
 
 - Esta semana vamos a continuar con sequealize y comenzaremos con middlewares y la validacion de schemas con Joi.
