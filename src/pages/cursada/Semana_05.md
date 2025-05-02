@@ -25,7 +25,7 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=VXALBxXrwmk
   - nombre: EP - Joi And Middlewares - Gerardo - Parte 2
     urlYoutube: https://www.youtube.com/watch?v=V-m_1Q1DVV4
-  - nombre: EP - Dokcer clase 1
+  - nombre: EP - Docker clase 1
     urlYoutube: https://www.youtube.com/watch?v=Z5k6W3JisRM
 
 ejercicios:
