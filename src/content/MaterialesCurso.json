@@ -244,13 +244,25 @@
 		},
 		{
 			"id": "middlewares-Joi",
-			"titulo": "middlewares - Joi",
+			"titulo": "Middlewares - Joi",
 			"descripcion": "Un middleware se encarga de hacer algo con esa solicitud antes de que llegue a su destino final. Puede ser algo como revisar que el usuario esté autenticado, registrar la solicitud en un archivo, o modificar la información que se envía. En cuanto a Joi es una biblioteca popular en Node.js que se utiliza para validar datos de una manera sencilla y declarativa. ",
 			"comandos": [],
 			"recursos": [
 				{
 					"descripcion": "Intro middlewares - Joi",
 					"url": "https://docs.google.com/presentation/d/1goZr8Ix2a5ckBawpKCQrKctR_f5DK6roRFUtVhwKNRU/edit?usp=sharing"
+				}
+			]
+		},
+		{
+			"id": "sequelize-relaciones",
+			"titulo": "Sequelize-Relaciones",
+			"descripcion": "Las relaciones/associations son vínculos que se establecen entre los tablas/modelos para conectar datos que están relacionados entre sí. Sequelize, adminte las asociaciones One-To-One, One-To-Many y Many-to-Many.",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "ORM - Sequilize Associations",
+					"url": "https://docs.google.com/presentation/d/1fEq5jy2rrEZ6yq7RtAq7hEs44nSmXNa2/edit?usp=sharing&ouid=115500952139364204244&rtpof=true&sd=true"
 				}
 			]
 		}
