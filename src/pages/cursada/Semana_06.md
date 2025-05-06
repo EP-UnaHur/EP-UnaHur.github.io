@@ -22,6 +22,12 @@ horarios:
     Hora: 18.05
     URL: https://meet.google.com/irv-giiv-wjd
 
+videos:
+  - nombre: EP - Sequelize - Relaciones - Lucas - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=5C6q0nvi1WM
+  - nombre: EP - Joi And Sequelize - Lucas - Gerardo - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=9b8327XrDUE
+
 ejercicios:
   - name: Anti-Social-Relational (TP Grupal )
     classroom: https://classroom.github.com/a/Sl6aWwgf
@@ -31,6 +37,10 @@ ejercicios:
     comentarios:
       - name: INSTRUCCIONES-> Un/a integrante del grupo acepta la asignación y procede a dar de alta el grupo (tengan acordado el nombre previamente), luego el resto de los/as integrantes también aceptan la asignación, y se unen a su grupo. La entrega la realizan haciendo push al reposotorio grupal desde cualquiera de los usuarios github del grupo. Podrán hacer los push hasta la fecha/hora límite indicada.
     obligatorio: true
+  - name: Sequelize-relaciones
+    verEjercicio: https://github.com/lucasfigarola/sequelize-relaciones
+    comentarios:
+      - name: Repo trabajado en clase por la comisión 2. -Lucas-
 ---
 
 - Link a la planilla donde deberan cargar de <a href="https://docs.google.com/spreadsheets/d/1FlSAHBPON9jCX9R63odobxGcQIQyxt5or1UqUAfmkGc/edit?usp=sharing" target="_blank">Equipos</a>
