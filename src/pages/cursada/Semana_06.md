@@ -25,7 +25,7 @@ horarios:
 videos:
   - nombre: EP - Sequelize - Relaciones - Lucas - Parte 1
     urlYoutube: https://www.youtube.com/watch?v=5C6q0nvi1WM
-  - nombre: EP - Joi And Sequelize - Lucas - Gerardo - Parte 2
+  - nombre: EP - Sequelize - Relaciones - Lucas - Parte 2
     urlYoutube: https://www.youtube.com/watch?v=9b8327XrDUE
 
 ejercicios:
