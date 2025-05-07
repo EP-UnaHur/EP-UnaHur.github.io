@@ -27,6 +27,10 @@ videos:
     urlYoutube: https://www.youtube.com/watch?v=5C6q0nvi1WM
   - nombre: EP - Sequelize - Relaciones - Lucas - Parte 2
     urlYoutube: https://www.youtube.com/watch?v=9b8327XrDUE
+  - nombre: EP - EP - Presentación del TP - Gerardo
+    urlYoutube: https://www.youtube.com/watch?v=TdQgyjJ5Ems
+  - nombre: EP - Relaciones 1 a N - Gerardo
+    urlYoutube: https://www.youtube.com/watch?v=ERpnnth95ho
 
 ejercicios:
   - name: Anti-Social-Relational (TP Grupal )
