@@ -43,6 +43,14 @@
 			],
 			"recursos": [
 				{
+					"descripcion": "Repositorio armado en clase de consulta con explicación y lista de comandos",
+					"url":"https://github.com/kevincaria/tutorial-git"
+				},
+				{
+					"descripcion": "Video de clase de consulta - Git",
+					"url":"https://drive.google.com/file/d/1T1iHONH1gVSku3pfuJYNB7SmKUGxUbKz/view?usp=drive_link"
+				},
+				{
 					"descripcion": "Guía rápida de cómo usar Git - Lo mínimo que tenés que saber para poder trabajar.",
 					"url": "https://github.com/obj1-unahur-2018s2/docs/wiki/Guia-r%C3%A1pida-de-GIT"
 				},
