@@ -44,11 +44,11 @@
 			"recursos": [
 				{
 					"descripcion": "Repositorio armado en clase de consulta con explicación y lista de comandos",
-					"url":"https://github.com/kevincaria/tutorial-git"
+					"url": "https://github.com/kevincaria/tutorial-git"
 				},
 				{
 					"descripcion": "Video de clase de consulta - Git",
-					"url":"https://drive.google.com/file/d/1T1iHONH1gVSku3pfuJYNB7SmKUGxUbKz/view?usp=drive_link"
+					"url": "https://drive.google.com/file/d/1T1iHONH1gVSku3pfuJYNB7SmKUGxUbKz/view?usp=drive_link"
 				},
 				{
 					"descripcion": "Guía rápida de cómo usar Git - Lo mínimo que tenés que saber para poder trabajar.",
@@ -271,6 +271,18 @@
 				{
 					"descripcion": "ORM - Sequilize Associations",
 					"url": "https://docs.google.com/presentation/d/1fEq5jy2rrEZ6yq7RtAq7hEs44nSmXNa2/edit?usp=sharing&ouid=115500952139364204244&rtpof=true&sd=true"
+				}
+			]
+		},
+		{
+			"id": "migraciones_seed",
+			"titulo": "Migraciones y Seeders",
+			"descripcion": ".",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "Sequilize Migraciones y Seeders",
+					"url": "https://docs.google.com/presentation/d/1Y-rGjEYHQjPyA8YnI8fa7z-JWFp-Yzm0/edit?usp=sharing&ouid=115500952139364204244&rtpof=true&sd=true"
 				}
 			]
 		}
