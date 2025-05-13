@@ -19,6 +19,20 @@ horarios:
     Hora: 18.00hs
     Aula: MA-112
     Edificio: Edificio Malvinas Argentinas
+
+ejercicios:
+  - name: Sequelize-relaciones
+    verEjercicio: https://github.com/EP-UnaHur/sequelize-relaciones-sqlite
+    comentarios:
+      - name: Repo trabajado con Sqlite en clase por la comisión 2. -Lucas-
+  - name: Sequelize-relaciones
+    verEjercicio: https://github.com/EP-UnaHur/sequelize-relaciones-mysql
+    comentarios:
+      - name: Repo trabajado con Mysql en clase por la comisión 2. -Lucas-
+  - name: Sequelize-relaciones NtoM
+    verEjercicio: http://github.com/EP-UnaHur-2025C1/ex_NtoM
+    comentarios:
+      - name: Repo trabajado en clase por la comisión 1. -Gerardo-
 ---
 
 - Esta semana continuamos aprendiendo sobre las relaciones entre los modelos de sequelize. Nos focalizaremos en la relaciones One-To-Many y Many-to-Many con su correspondiente formas de acceder: lazy vs eager
