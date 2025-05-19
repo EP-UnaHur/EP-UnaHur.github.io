@@ -285,6 +285,18 @@
 					"url": "https://docs.google.com/presentation/d/1Y-rGjEYHQjPyA8YnI8fa7z-JWFp-Yzm0/edit?usp=sharing&ouid=115500952139364204244&rtpof=true&sd=true"
 				}
 			]
+		},
+		{
+			"id": "mongoose",
+			"titulo": "Mongoose",
+			"descripcion": "Operaciones básicas y comandos",
+			"comandos":[],
+			"recursos":[
+				{
+					"descripcion": "Mongoose",
+					"url": "https://docs.google.com/document/d/1QA_uO7SwvxP88H0GuILPHwI3NDzF67zUmNaet59LnpQ/edit?usp=sharing"
+				}
+			]
 		}
 	]
 }
