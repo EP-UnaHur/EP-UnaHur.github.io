@@ -20,6 +20,10 @@ horarios:
     Aula: MA-112
     Edificio: Edificio Malvinas Argentinas
 
+videos:
+  - nombre: Relaciones N to M - Gerardo
+    urlYoutube: https://www.youtube.com/watch?v=DCttD9Nyz-U
+
 ejercicios:
   - name: Sequelize-relaciones
     verEjercicio: https://github.com/EP-UnaHur/sequelize-relaciones-sqlite
