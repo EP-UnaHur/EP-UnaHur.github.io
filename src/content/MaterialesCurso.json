@@ -287,6 +287,18 @@
 			]
 		},
 		{
+			"id": "MongoDB",
+			"titulo": "MongoDB",
+			"descripcion": "PPT utilizada en clase para explicar MongoDB y Mongoose",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "PPT utilizada en clase",
+					"url": "https://docs.google.com/presentation/d/1sGaViySCsd8LEiQ701ysjMgeWaSfEnLA/edit?slide=id.p1#slide=id.p1"
+				}
+			]
+		},
+		{
 			"id": "mongoose",
 			"titulo": "Mongoose",
 			"descripcion": "Operaciones básicas y comandos",

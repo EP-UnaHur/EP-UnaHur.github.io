@@ -19,6 +19,20 @@ horarios:
     Hora: 18.00hs
     Aula: MA-112
     Edificio: Edificio Malvinas Argentinas
+
+videos:
+  - nombre: EP-Mongo - Gerardo
+    urlYoutube: https://www.youtube.com/watch?v=BEyaztGqFRk
+
+ejercicios:
+  - name: MongoDB
+    verEjercicio: https://github.com/EP-UnaHur-2025C1/mongo-v1
+    comentarios:
+      - name: Repo trabajado con MongoDB en clase por la comisión 1. -Gerardo-
+  - name: MongoDB
+    verEjercicio: https://github.com/EP-UnaHur-2025C1/libreria-mongodb
+    comentarios:
+      - name: Repo trabajado con MongoDB en clase por la comisión 2. -Lucas-
 ---
 
 - Continuamos explorando MongoDB y repasamos Docker Compose. Nos enfocamos principalmente en las relaciones incrustadas en MongoDB, y sus diferencias con el modelo relacional tradicional. Trabajaremos en la construcción de una API REST que interactúa con MongoDB para consultas y persistencia de datos.
