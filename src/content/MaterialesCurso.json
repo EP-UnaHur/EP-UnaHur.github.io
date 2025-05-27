@@ -305,8 +305,12 @@
 			"comandos":[],
 			"recursos":[
 				{
-					"descripcion": "Mongoose",
+					"descripcion": "Mongoose - comandos basicos",
 					"url": "https://docs.google.com/document/d/1QA_uO7SwvxP88H0GuILPHwI3NDzF67zUmNaet59LnpQ/edit?usp=sharing"
+				},
+				{
+					"descripcion":"PPT - Incrustación y referencia",
+					"url":"https://docs.google.com/presentation/d/1FHpKbM3mM1hh8WWM0TL4jRdk_E6r3nal/edit?slide=id.p1#slide=id.p1"
 				}
 			]
 		}
