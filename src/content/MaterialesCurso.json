@@ -302,15 +302,27 @@
 			"id": "mongoose",
 			"titulo": "Mongoose",
 			"descripcion": "Operaciones básicas y comandos",
-			"comandos":[],
-			"recursos":[
+			"comandos": [],
+			"recursos": [
 				{
 					"descripcion": "Mongoose - comandos basicos",
 					"url": "https://docs.google.com/document/d/1QA_uO7SwvxP88H0GuILPHwI3NDzF67zUmNaet59LnpQ/edit?usp=sharing"
 				},
 				{
-					"descripcion":"PPT - Incrustación y referencia",
-					"url":"https://docs.google.com/presentation/d/1FHpKbM3mM1hh8WWM0TL4jRdk_E6r3nal/edit?slide=id.p1#slide=id.p1"
+					"descripcion": "PPT - Incrustación y referencia",
+					"url": "https://docs.google.com/presentation/d/1FHpKbM3mM1hh8WWM0TL4jRdk_E6r3nal/edit?slide=id.p1#slide=id.p1"
+				}
+			]
+		},
+		{
+			"id": "redis",
+			"titulo": "Redis",
+			"descripcion": "Utilizando Redis",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "PPT - Utilizando Redis",
+					"url": "https://docs.google.com/presentation/d/1qMSRdzXCD2cfiw8ECX-NPwExQuFayVD3/edit?usp=sharing&ouid=115500952139364204244&rtpof=true&sd=true"
 				}
 			]
 		}
