@@ -30,6 +30,22 @@ ejercicios:
       - name: TP de Anti-Social-Mongo. (Solo cambiar capa de persistencia y ajustar temas indicados en la corrección)
     fechaDeEntrega: Lunes 23-06 18:00 hs
     obligatorio: true
+  - name: Ejemplo básico Redis
+    verEjercicio: https://github.com/EP-UnaHur/RedisBasico
+    comentarios:
+      - name: Repo trabajado con Redis en clase por la comisión 1. -Gerardo-
+  - name: Relación muchos a muchos
+    verEjercicio: https://github.com/EP-UnaHur-2025C1/libreria-mongodb-muchos-a-muchos
+    comentarios:
+      - name: Repo trabajado con MongoDB en clase por la comisión 2. -Lucas-
+  - name: Redis
+    verEjercicio: https://github.com/EP-UnaHur-2025C1/libreria-redis
+    comentarios:
+      - name: Repo trabajado con Redis en clase por la comisión 2. -Lucas-
+
+videos:
+  - nombre: Clase Redis - Gerardo
+    urlYoutube: https://www.youtube.com/watch?v=wA_emca_dX0
 ---
 
 - Esta semana vamos a ver como utilizar redis como caché de nuestra api
