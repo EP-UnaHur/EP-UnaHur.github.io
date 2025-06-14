@@ -46,6 +46,10 @@ ejercicios:
 videos:
   - nombre: Clase Redis - Gerardo
     urlYoutube: https://www.youtube.com/watch?v=wA_emca_dX0
+  - nombre: Clase Redis parte 1 - Lucas
+    urlYoutube: http://youtube.com/watch?v=etWOkv_lBVc&ab_channel=LucasFigarola
+  - nombre: Clase Redis parte 2 - Lucas
+    urlYoutube: https://www.youtube.com/watch?v=IiSptQlzLMo&ab_channel=LucasFigarola
 ---
 
 - Esta semana vamos a ver como utilizar redis como caché de nuestra api
