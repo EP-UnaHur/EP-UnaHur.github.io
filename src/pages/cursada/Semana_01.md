@@ -8,7 +8,6 @@ descripcion: ¡Hola! ¡Te damos la bienvenida a la primer semana de cursada de E
 
 importante: Es muy importante que te suscribas al canal de Discord de la materia.
 
-
 horarios:
   - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
     Dia: Lunes 11 de Agosto
@@ -17,26 +16,24 @@ horarios:
     URL: https://meet.google.com/aya-vaia-hoo
 
   - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
-    Dia:  Lunes 11 de Agosto
+    Dia: Lunes 11 de Agosto
     Modalidad: PRESENCIAL
     Hora: 18.15hs
-    Aula: 
+    Aula:
     Edificio: Edificio Malvinas Argentinas
 
 ejercicios:
   - name: Series - FrontEnd
-    repoUrl: 'EP-UnaHur/front-peli'
-    defaultBranch: 'main' # Acá va la rama default del repo
+    verEjercicio: 'https://github.com/EP-UnaHur/front-peli'
     comentarios:
       - name: Se comunica con la API BackEnd de Series.
 
   - name: Series - BackEnd
-    repoUrl: 'EP-UnaHur/api-peli'
-    defaultBranch: 'main' # Acá va la rama default del repo
+    verEjercicio: 'https://github.com/EP-UnaHur/api-peli'
     comentarios:
       - name: API tipo CRUD de series.
-      
-  -name: Filtros Mundiales
+
+  - name: Filtros Mundiales
     classroom: https://classroom.github.com/a/Vxj7E6DE
     repoUrl: 'EP-UnaHur-2025C2/filtros_mundiales'
     defaultBranch: 'main' # Acá va la rama default del repo
@@ -45,7 +42,7 @@ ejercicios:
 
   - name: Usuarios Practica JS con Express
     classroom: https://classroom.github.com/a/6Bk7VA3w
-    repoUrl: 'https://github.com/EP-UnaHur-2025C2/js_practica_usuarios'
+    repoUrl: 'EP-UnaHur-2025C2/js_practica_usuarios'
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Intro Express y practica js.
