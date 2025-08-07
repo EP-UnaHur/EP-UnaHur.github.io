@@ -2,7 +2,7 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 1
 
-inicio: 2025-08-07
+inicio: 2025-03-30
 
 descripcion: ¡Hola! ¡Te damos la bienvenida a la primer semana de cursada de Estrategias de Persistencia!
 
