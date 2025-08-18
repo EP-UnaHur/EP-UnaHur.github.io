@@ -1,26 +1,26 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
-title: Semana 1
+title: Semana 2
 
-inicio: 2025-08-07
+inicio: 2025-08-18
 
-descripcion: ¡Hola! ¡Te damos la bienvenida a la primer semana de cursada de Estrategias de Persistencia!
+descripcion: ¡Hola! ¡Te damos la bienvenida a la segunda semana de cursada de Estrategias de Persistencia!
 
 importante: Es muy importante que te suscribas al canal de Discord de la materia.
 
 horarios:
   - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
-    Dia: Lunes 11 de Agosto
-    Modalidad: VIRTUAL
-    Hora: 18.15hs
-    URL: https://meet.google.com/aya-vaia-hoo
+    Dia: Lunes 18 de Agosto
+    Modalidad: PRESENCIAL
+    Hora: 18.10 hs
+    AULA: MA-108
+    EDIFICIO: Malvinas Argentinas
 
   - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
-    Dia: Lunes 11 de Agosto
-    Modalidad: PRESENCIAL
-    Hora: 18.15hs
-    Aula:
-    Edificio: Edificio Malvinas Argentinas
+    Dia: Lunes 18 de Agosto
+    Modalidad: VIRTUAL
+    Hora: 18.10 hs
+    URL: https://meet.google.com/irv-giiv-wjd
 
 ejercicios:
   - name: Series - FrontEnd
@@ -49,10 +49,8 @@ ejercicios:
 ---
 
 - ¡Hola!
-- ¡Te damos la bienvenida a la primera semana de cursada de Estrategias de Persistencia!
+- ¡Te damos la bienvenida a la segunda semana de cursada de Estrategias de Persistencia!
 
 - Todos los lunes se publicarán en este espacio las actividades de la semana, los horarios y la modalidad de cursada de cada comisión. También encontrarás el enlace de acceso a las clases virtuales, videos de apoyo teórico, grabaciones de clases, ejercicios a realizar y los temas que abordaremos. Además, este espacio servirá como cartelera de avisos con novedades importantes.
 
-- En esta primera semana, comenzaremos conversando sobre los contenidos que aprenderemos durante la cursada. También te presentaremos todas las herramientas que utilizarás y el lenguaje de programación que usaremos: JavaScript, en conjunto con distintos motores de bases de datos. Además, hablaremos sobre FrontEnd y BackEnd, y cómo estos dos mundos se comunican mediante distintos protocolos, como HTTP. Para ilustrar estos conceptos, veremos un ejemplo completo que nos permitirá comprenderlos mejor.
-
-- Por último, te informamos que la primera clase será conjunta para ambas comisiones y se dictará en el aula TA-209 del Edificio Trabajo Argentino. Aquí te dejamos el plano para que puedas ubicarte mejor: <a href="https://unahur.edu.ar/wp-content/uploads/2024/01/PLANO-2024-1.pdf" target="_blank">Ver Plano</a>
+- En esta semana, comenzaremos conversando sobre los contenidos que aprenderemos durante la cursada. También te presentaremos todas las herramientas que utilizarás y el lenguaje de programación que usaremos: JavaScript, en conjunto con distintos motores de bases de datos. Además, hablaremos sobre FrontEnd y BackEnd, y cómo estos dos mundos se comunican mediante distintos protocolos, como HTTP. Para ilustrar estos conceptos, veremos un ejemplo completo que nos permitirá comprenderlos mejor.
