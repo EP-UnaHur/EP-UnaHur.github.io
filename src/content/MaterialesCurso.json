@@ -81,6 +81,19 @@
 			]
 		},
 		{
+			"id": "Soluciones",
+			"titulo": "Alguna Soluciones de Activades",
+			"descripcion": "Dejamos un repo con algunos de los ejercicios de prática resultos y con un explicación detalla",
+			"comandos": [],
+			"recursos": [
+				{
+					"descripcion": "Soluciones Actividades Practicas",
+					"url": "https://github.com/EP-UnaHur/ep-solucion-actividades"
+				}
+			]
+		},
+
+		{
 			"id": "docker",
 			"titulo": "Docker",
 			"descripcion": "Docker es una plataforma de contenedores que nos permite crear, distribuir y ejecutar aplicaciones en entornos aislados. A continuación encontrarás recursos útiles.",
