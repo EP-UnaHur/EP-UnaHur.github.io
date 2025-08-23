@@ -4,7 +4,7 @@ title: Semana 3
 
 inicio: 2025-08-23
 
-importante: Hay que ir armando los equipos y deben cargarse en la planilla "Equipos" con un mínimo de 4 y un máximo de 5 integrantes. Todos los miembros deben pertenecer a la MISMA comisión. La planilla tiene una hoja para cada comisión, deben completar el nombre del grupo, dni, y apellido y nombre.
+importante: Deben ir armando los equipos y cargarlos en la planilla "Equipos".  Mínimo de 4 y un máximo de 5 integrantes. Todos los miembros deben pertenecer a la MISMA comisión. La planilla tiene una hoja para cada comisión, y deben completar el nombre del grupo, dni, y apellido y nombre.
 
 descripcion: En esta semana hacemos foco en el entorno de ejecución que usaremos durante la cursada.
 
@@ -26,7 +26,8 @@ videos:
   - nombre: Docker Básico
     urlYoutube: https://www.youtube.com/watch?v=CV_Uf3Dq-EU&t=185s
 
-  - name: Usuarios Practica JS con Express
+ejercicios:
+  - name: Practica de JS y Express - Usuarios (semana anterior)
     classroom: https://classroom.github.com/a/6Bk7VA3w
     repoUrl: 'EP-UnaHur-2025C2/js_practica_usuarios'
     defaultBranch: 'main' # Acá va la rama default del repo
