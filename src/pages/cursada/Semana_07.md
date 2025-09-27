@@ -24,15 +24,12 @@ horarios:
     URL: https://meet.google.com/irv-giiv-wjd
 
 videos:
-  - nombre: EP - Sequelize - Relaciones - Lucas - Parte 1 (Cuatri Pasado)
-    urlYoutube: https://www.youtube.com/watch?v=5C6q0nvi1WM
-  - nombre: EP - Sequelize - Relaciones - Lucas - Parte 2 (Cuatri Pasado)
-    urlYoutube: https://www.youtube.com/watch?v=9b8327XrDUE
-  - nombre: EP - EP - Presentación del TP - Gerardo (Cuatri Pasado)
-    urlYoutube: https://www.youtube.com/watch?v=TdQgyjJ5Ems
+  - nombre: EP - Sequelize - Relaciones - Lucas - Parte 1
+    urlYoutube: https://www.youtube.com/watch?v=ZqUBjAb2Whs
+  - nombre: EP - Sequelize - Relaciones - Lucas - Parte 2
+    urlYoutube: https://www.youtube.com/watch?v=iW4ID9wHKcA
   - nombre: EP - Relaciones 1 a N - Gerardo (Cuatri Pasado)
     urlYoutube: https://www.youtube.com/watch?v=ERpnnth95ho
-
 # ejercicios:
 #   - name: Anti-Social-Relational (TP Grupal )
 #     classroom: https://classroom.github.com/a/Sl6aWwgf
@@ -47,7 +44,8 @@ videos:
 #     comentarios:
 #       - name: Repo trabajado en clase por la comisión 2. -Lucas-
 ---
-<!-- 
+
+<!--
 - Link a la planilla donde deberan cargar de <a href="https://docs.google.com/spreadsheets/d/1FlSAHBPON9jCX9R63odobxGcQIQyxt5or1UqUAfmkGc/edit?usp=sharing" target="_blank">Equipos</a>
 
 - Esta semana vamos a aprender sobre las relaciones entre los modelos de sequelize. Sequelize soporta los 3 tipos estandar de relaciones One-To-One, One-To-Many y Many-to-Many.
