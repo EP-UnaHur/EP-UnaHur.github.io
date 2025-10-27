@@ -13,7 +13,7 @@ horarios:
     Dia: Lunes 20 de Octubre
     Modalidad: VIRTUAL
     Hora: 18.15 hs
-    URL: https://meet.google.com/irv-giiv-wjd
+    URL: https://meet.google.com/nrr-vijw-ypw
 
   - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
     Dia: Lunes 20 de Octubre
