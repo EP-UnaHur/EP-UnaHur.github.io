@@ -2,14 +2,22 @@
 import AsideMenu from '@components/AsideMenu.astro'
 import DefaultLayout from './DefaultLayout.astro'
 
-let semanas = await Astro.glob('../pages/cursada/*.md')
+let semanas = await Astro.glob('../pages/cursada/**/*.md')
 
-// Solo mostramos las clases de las semanas cuya fecha de inicio sea inferior a la fecha actual
-// por un tema de compatibilidad, también mostramos las clases que no especifican fecha de inicio
+// Obtenemos la ruta actual para saber en qué comisión estamos
+const currentPathname = Astro.url.pathname
+
+// Filtramos para mostrar solo las semanas de la comisión actual
+// Por ejemplo, si estamos en /cursada/c1/..., mostramos solo archivos de esa ruta
+semanas = semanas.filter((semana) => {
+	const commissionPath = currentPathname.split('/').slice(0, 3).join('/') // ej: /cursada/c1
+	return semana.url.startsWith(commissionPath)
+})
+
+// Filtramos para mostrar solo las semanas que tengan el atributo mostrar en true
+// Por compatibilidad con archivos viejos, si no existe el atributo también lo mostramos
 semanas = semanas.reverse().filter((semana) => {
-	const inicio = new Date(semana.frontmatter.inicio)
-	const hoy = new Date()
-	return hoy >= inicio || !semana.frontmatter.inicio
+	return semana.frontmatter.mostrar !== false
 })
 
 const { title } = Astro.props

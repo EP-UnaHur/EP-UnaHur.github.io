@@ -2,13 +2,14 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 1
 
-inicio: 2025-03-30
+inicio: 2026-03-30
+mostrar: true
 
 descripcion: ¡Hola! ¡Te damos la bienvenida a la primer semana de cursada de Estrategias de Persistencia!
 
 importante: Es muy importante que te suscribas al canal de Discord de la materia.
 
-atencion: La modalidad de cursada será alternada. Cada lunes una comisión tendrá clase presencial mientras que la otra participará de manera virtual. En la semana siguiente se inverten la modalidades. Hay que estar antento a los horarios y modalidades publicados en cada semana.
+atencion: La modalidad de la cursada c1 será alternada. Cada lunes una comisión tendrá clase presencial mientras que la otra participará de manera virtual. En la semana siguiente se inverten la modalidades. Hay que estar antento a los horarios y modalidades publicados en cada semana.
 
 horarios:
   - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
@@ -17,13 +18,6 @@ horarios:
     Hora: 18.00hs
     Aula: TA-209
     Edificio: Edificio Trabajo Argentino
-
-  - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
-    Dia: Lunes 30 de Marzo - 2026
-    Modalidad: PRESENCIAL
-    Hora: 18.00hs
-    Aula: MA-110
-    Edificio: Edificio Malvinas Argentinas
 
 ejercicios:
   - name: Series - FrontEnd

@@ -1,8 +1,6 @@
 ---
-import CardSemana from '@components/CardSemana.astro'
 import DefaultLayout from '@layouts/DefaultLayout.astro'
-
-const semanas = await Astro.glob('./*.md') //Para buscar todos los archivos .md en la carpeta
+import { PATH_C1, PATH_C2, PATH_C3 } from '@/paths.js'
 ---
 
 <DefaultLayout
@@ -10,46 +8,71 @@ const semanas = await Astro.glob('./*.md') //Para buscar todos los archivos .md 
 	description="Universidad Nacional de Hurlingham, cursada / semana de Programación con Estrategias de Persistencia"
 	author="Estrategias de Persistencia">
 	<section class="my-12">
-		<div class="space-content container">
-			<h1>Cursada</h1>
-			<ul class="m-auto">
-				{
-					semanas
-						.reverse()
-						.filter((semana) => {
-							// Solo mostramos las clases de las semanas cuya fecha de inicio sea inferior a la fecha actual
-							// por un tema de compatibilidad, también mostramos las clases que no especifican fecha de inicio
-							const inicio = new Date(semana.frontmatter.inicio)
-							const hoy = new Date()
-							return hoy >= inicio || !semana.frontmatter.inicio
-						})
-						.map((semana) => (
-							<li>
-								<CardSemana
-									frontmatter={semana.frontmatter}
-									url={semana.url}
-								/>
-							</li>
-						))
-				}
-			</ul>
+		<div class="space-content container text-center">
+			<h1>Selecciona tu Comisión</h1>
+			<div class="selection-grid mt-10">
+				<a
+					href={PATH_C1}
+					class="selection-card">
+					<h2>C1</h2>
+					<p>Turno Noche - Prof. Gerardo Gonzalez Tulian</p>
+				</a>
+				<a
+					href={PATH_C2}
+					class="selection-card">
+					<h2>C2</h2>
+					<p>Turno Noche - Prof. Lucas Figarola</p>
+				</a>
+				<a
+					href={PATH_C3}
+					class="selection-card">
+					<h2>C3</h2>
+					<p>Turno Noche - Prof. Lucas Figarola</p>
+				</a>
+			</div>
 		</div>
 	</section>
 </DefaultLayout>
 
 <style lang="scss">
-	ul {
+	.selection-grid {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-gap: 4rem;
+		gap: 2rem;
 
-		@media (min-width: 550px) {
-			grid-template-columns: repeat(2, 1fr);
-			grid-gap: 2rem;
+		@media (min-width: 768px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	.selection-card {
+		display: block;
+		padding: 2rem;
+		background-color: var(--neutral-200);
+		border: 2px solid var(--action-color);
+		border-radius: var(--radius-large);
+		text-decoration: none;
+		transition: transform 0.2s ease, background-color 0.2s ease;
+
+		h2 {
+			margin-bottom: 0.5rem;
+			color: var(--action-color);
 		}
 
-		@media (min-width: 950px) {
-			grid-template-columns: repeat(3, 1fr);
+		p {
+			color: var(--font-color);
+		}
+
+		&:hover {
+			transform: translateY(-5px);
+			background-color: var(--primary-100);
+		}
+	}
+
+	:global(.darkmode) .selection-card {
+		background-color: var(--neutral-900);
+		&:hover {
+			background-color: var(--neutral-800);
 		}
 	}
 </style>
