@@ -16,8 +16,7 @@ horarios:
     Dia: Lunes 30 de Marzo - 2026
     Modalidad: VIRTUAL
     Hora: 18.00hs
-    Aula: TA-209
-    Edificio: Edificio Trabajo Argentino
+    url: https://meet.google.com/njv-xtoj-hg
 
 ejercicios:
   - name: Series - FrontEnd
