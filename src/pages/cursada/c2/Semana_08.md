@@ -13,9 +13,7 @@ horarios:
     Dia: 2026-05-18
     Modalidad: VIRTUAL
     Hora: 18.00hs
-    Aula: MA-110
-    Edificio: Edificio Malvinas Argentinas
-
+    URL: https://meet.google.com/tyc-ubgf-dfz
 ejercicios:
 videos:
 ---

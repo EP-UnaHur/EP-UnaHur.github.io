@@ -16,7 +16,7 @@ const { horarios } = Astro.props
 						modalidad={horario.Modalidad}
 						dia={horario.Dia}
 						hora={horario.Hora}
-						url={horario.URL}
+						url={horario.URL || horario.url}
 						aula={horario.Aula}
 						edificio={horario.Edificio}
 					/>

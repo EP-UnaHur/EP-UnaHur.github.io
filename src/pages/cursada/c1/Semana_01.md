@@ -16,8 +16,7 @@ horarios:
     Dia: Lunes 30 de Marzo - 2026
     Modalidad: VIRTUAL
     Hora: 18.00hs
-    url: https://meet.google.com/njv-xtoj-hg
-
+    URL: https://meet.google.com/tyc-ubgf-dfz
 ejercicios:
   - name: Series - FrontEnd
     repoUrl: 'EP-UnaHur/front-peli'
