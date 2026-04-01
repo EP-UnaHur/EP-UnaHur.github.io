@@ -29,6 +29,12 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: API tipo CRUD de series.
+
+videos:
+  - nombre: Intro DB - Propiedead ACID
+    urlYoutube: https://www.youtube.com/watch?v=inAD3FrP7Mo
+  - nombre: JavaScript - Funciones de Orden Superior
+    urlYoutube: https://www.youtube.com/watch?v=OouyD0bXC7M
 ---
 
 - ¡Hola!
