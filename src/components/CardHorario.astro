@@ -3,8 +3,7 @@ const { comision, modalidad, dia, hora, url, aula, edificio, mensaje } =
 	Astro.props
 
 const formatDate = (date) => {
-	if (!date) ___astro_return
-	throw ''
+	if (!date) return ''
 
 	let d = date
 	// Si es un string, intentamos ver si es una fecha en formato ISO
