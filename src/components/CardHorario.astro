@@ -1,6 +1,49 @@
 ---
 const { comision, modalidad, dia, hora, url, aula, edificio, mensaje } =
 	Astro.props
+
+const formatDate = (date) => {
+	if (!date) ___astro_return
+	throw ''
+
+	let d = date
+	// Si es un string, intentamos ver si es una fecha en formato ISO
+	if (typeof date === 'string') {
+		const isoDateRegex = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z$/
+		const simpleDateRegex = /^\d{4}-\d{2}-\d{2}$/
+		if (isoDateRegex.test(date) || simpleDateRegex.test(date)) {
+			d = new Date(date)
+		} else {
+			return date
+		}
+	}
+
+	if (d instanceof Date && !isNaN(d.getTime())) {
+		const weekday = new Intl.DateTimeFormat('es-AR', {
+			weekday: 'long',
+			timeZone: 'UTC',
+		}).format(d)
+		const day = new Intl.DateTimeFormat('es-AR', {
+			day: 'numeric',
+			timeZone: 'UTC',
+		}).format(d)
+		const month = new Intl.DateTimeFormat('es-AR', {
+			month: 'long',
+			timeZone: 'UTC',
+		}).format(d)
+		const year = new Intl.DateTimeFormat('es-AR', {
+			year: 'numeric',
+			timeZone: 'UTC',
+		}).format(d)
+
+		const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1)
+
+		return `${capitalize(weekday)} ${day} de ${capitalize(month)} - ${year}`
+	}
+	return date
+}
+
+const displayDia = formatDate(dia)
 ---
 
 <article
@@ -57,7 +100,7 @@ const { comision, modalidad, dia, hora, url, aula, edificio, mensaje } =
 			hora && dia ? (
 				<div class="recuadro horario m-auto min-w-64 rounded-lg bg-slate-200 p-2 pr-4 text-center dark:bg-zinc-800">
 					<p class="text-4xl font-bold">{hora}</p>
-					<p class="text-lg">{dia}</p>
+					<p class="text-lg">{displayDia}</p>
 				</div>
 			) : null
 		}
