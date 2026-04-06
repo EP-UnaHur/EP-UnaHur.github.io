@@ -10,12 +10,11 @@ descripcion: ¡Hola! ¡Te damos la bienvenida a la primer semana de cursada de E
 importante: Es muy importante que te suscribas al canal de Discord de la materia.
 
 horarios:
-  - Comision: Comisión 3 T.Noche (Prof. Lucas Figarola)
-    Dia: Martes 31 de Marzo - 2026
-    Modalidad: PRESENCIAL
-    Hora: 18.00hs
-    Aula:
-    Edificio:
+  - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
+    Dia: 2026-04-06
+    Modalidad: VIRTUAL
+    Hora: 18.10hs
+    URL: https://meet.google.com/tyc-ubgf-dfz
 
 ejercicios:
   - name: Series - FrontEnd

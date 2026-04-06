@@ -2,20 +2,32 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 2
 inicio: 2026-04-06
-mostrar: false
+mostrar: true
 
-descripcion:
+descripcion: Funciones como ciudadanos de primera clase. Ejemplos de funciones de orden superior. Base de datos relacionales y ORM.
 importante:
-atencion: La modalidad será alternada semanalmente.
 
 horarios:
   - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
     Dia: 2026-04-06
     Modalidad: VIRTUAL
-    Hora: 18.00hs
+    Hora: 18.10hs
     URL: https://meet.google.com/tyc-ubgf-dfz
+
 ejercicios:
+  - name: Funciones como ciudadanos de primera clase
+    repoUrl: 'gonzager/funciones-orden-superior'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Ejercicio para practicar en casa un poquito de javascript
+
+  - name: Entorno de ejecucion
+    repoUrl: 'EP-UnaHur/clase-3-md'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Apunte para repasar el entorno de ejecucion de javascript.
+
 videos:
 ---
 
-- Contenidos a definir.
+- Esta semana vamos a trabajar con funciones como ciudadanos de primera clase y funciones de orden superior. Además, continuaremos conversando sobre bases de datos relacionales y el manejo de las mismas con ORM (Object Relational Mapping). En la primera parte de la cursada utilizaremos sequelize como ORM para el manejo de bases de datos relacionales.
