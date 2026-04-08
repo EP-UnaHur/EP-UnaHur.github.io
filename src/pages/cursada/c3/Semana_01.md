@@ -16,6 +16,12 @@ horarios:
     Hora: 18.10hs
     URL: https://meet.google.com/tyc-ubgf-dfz
 
+videos:
+  - nombre: Introducción Javascript (parte 1)
+    urlYoutube: https://www.youtube.com/watch?v=nKiqHJokVnE
+  - nombre: Introducción Javascript (parte 2)
+    urlYoutube: https://www.youtube.com/watch?v=WSJQn8Bx0Ks
+
 ejercicios:
   - name: Series - FrontEnd
     repoUrl: 'EP-UnaHur/front-peli'

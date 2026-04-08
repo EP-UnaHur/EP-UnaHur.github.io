@@ -14,6 +14,12 @@ horarios:
     Hora: 18.10hs
     URL: https://meet.google.com/tyc-ubgf-dfz
 
+videos:
+  - nombre: Introducción Node.js (parte 1)
+    urlYoutube: https://www.youtube.com/watch?v=tfB37hDZhwc
+  - nombre: Introducción Node.js (parte 2)
+    urlYoutube: https://www.youtube.com/watch?v=c0Vkva2C4kc
+
 ejercicios:
   - name: Funciones como ciudadanos de primera clase
     repoUrl: 'gonzager/funciones-orden-superior'
@@ -26,8 +32,6 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: Apunte para repasar el entorno de ejecucion de javascript.
-
-videos:
 ---
 
 - Esta semana vamos a trabajar con funciones como ciudadanos de primera clase y funciones de orden superior. Además, continuaremos conversando sobre bases de datos relacionales y el manejo de las mismas con ORM (Object Relational Mapping). En la primera parte de la cursada utilizaremos sequelize como ORM para el manejo de bases de datos relacionales.
