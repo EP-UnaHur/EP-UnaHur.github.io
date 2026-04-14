@@ -13,8 +13,17 @@ horarios:
     Modalidad: VIRTUAL
     Hora: 18.15hs
     URL: https://meet.google.com/tyc-ubgf-dfz
-ejercicios:
+
 videos:
+  - nombre: Api - Primeros Pasos con Express
+    urlYoutube: https://www.youtube.com/watch?v=jjemZrQssqk
+
+ejercicios:
+  - name: Api - Productos - Primero pasos
+    repoUrl: 'EP-UnaHur-2026C1/api-productos-first'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Primeros paso con express
 ---
 
 Comenzamos a desarrollar un Api sencilla desde 0 y paso a paso. Por el momento será sin base de datos porque debemos hacer foco en todos los componentes necesarios y como se separan las responsabilidades de esos componentes. App, Rutas, Controladores, Middleware, Lógica de Negocio.
