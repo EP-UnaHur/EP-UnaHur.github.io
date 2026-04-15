@@ -16,6 +16,11 @@ horarios:
     Edificio: Edificio Malvinas Argentinas
 
 ejercicios:
+  - name: Api - Productos - Primero pasos
+    repoUrl: 'EP-UnaHur-2026C1/api-productos-c2'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Primeros paso con express
 videos:
 ---
 

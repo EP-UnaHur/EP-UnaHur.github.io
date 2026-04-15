@@ -23,11 +23,11 @@ ejercicios:
     comentarios:
       - name: Ejercicio para practicar en casa un poquito de javascript
 
-  - name: Entorno de ejecucion
-    repoUrl: 'EP-UnaHur/clase-3-md'
+  - name: Api - Productos - Primero pasos
+    repoUrl: 'EP-UnaHur-2026C1/api-productos-c3'
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
-      - name: Apunte para repasar el entorno de ejecucion de javascript.
+      - name: Primeros paso con express
 videos:
 ---
 
