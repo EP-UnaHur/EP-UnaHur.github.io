@@ -1,23 +1,23 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 3
-inicio: 2026-04-14
-mostrar: false
+inicio: 2026-04-21
+mostrar: true
 
-descripcion:
+descripcion: ORM son las siglas de Object Relational Mapping, que en español significa "mapeo objeto-relacional"
 importante:
-atencion: Modalidad presencial.
 
 horarios:
-  - Comision: Comisión 3 T.Noche (Prof. Lucas Figarola)
-    Dia: 2026-04-14
-    Modalidad: PRESENCIAL
-    Hora: 18.00hs
-    Aula:
-    Edificio:
+  - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
+    Dia: 2026-04-21
+    Modalidad: VIRTUAL
+    Hora: 18.10hs
+    URL: https://meet.google.com/tyc-ubgf-dfz
 
 ejercicios:
 videos:
 ---
 
-- Contenidos a definir.
+- En esta semana, vamos a continuar aprendiendo sobre express pero intentaremos comenzar a trabajar sobre una base de datos relacional utilizando el ORM sequelize.
+
+- Todavia nos va a quedar mucho por aprender de express pero lo vamos a ir mechando semana a semana. De express esta semana sumaremos ruta y controladores.

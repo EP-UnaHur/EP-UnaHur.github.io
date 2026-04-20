@@ -2,20 +2,19 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 4
 inicio: 2026-04-20
-mostrar: false
+mostrar: true
 
-descripcion:
+descripcion: Esta semana seguimos con sequeliza y arrancamos con middlewares
 importante:
-atencion: La modalidad será alternada semanalmente.
 
 horarios:
   - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
     Dia: 2026-04-20
     Modalidad: VIRTUAL
-    Hora: 18.00hs
+    Hora: 18.10hs
     URL: https://meet.google.com/tyc-ubgf-dfz
 ejercicios:
 videos:
 ---
 
-- Contenidos a definir.
+- Esta semana vamos a continuar con sequealize y comenzaremos con middlewares
