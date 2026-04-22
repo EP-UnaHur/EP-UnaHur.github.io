@@ -15,7 +15,17 @@ horarios:
     URL: https://meet.google.com/tyc-ubgf-dfz
 
 ejercicios:
+  - name: Api - Productos - Sequelize - Primero pasos
+    repoUrl: 'EP-UnaHur-2026C1/api-productos-sequelize-c3'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: Primeros paso con Sequelize
+
 videos:
+  - nombre: Sequelize (Parte 1)
+    urlYoutube: https://www.youtube.com/watch?v=ZV8VJQ-fMgk
+  - nombre: Sequelize (Parte 2)
+    urlYoutube: https://www.youtube.com/watch?v=h_Ga4-iRSic
 ---
 
 - En esta semana, vamos a continuar aprendiendo sobre express pero intentaremos comenzar a trabajar sobre una base de datos relacional utilizando el ORM sequelize.
