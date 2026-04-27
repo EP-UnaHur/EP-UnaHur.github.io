@@ -9,7 +9,7 @@ importante:
 
 horarios:
   - Comision: Comisión 3 T.Noche (Prof. Lucas Figarola)
-    Dia: 2026-04-21
+    Dia: 2026-04-28
     Modalidad: PRESENCIAL
     Hora: 18.10hs
     Aula: MA-109
