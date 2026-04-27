@@ -2,11 +2,11 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 4
 inicio: 2026-04-20
-mostrar: false
+mostrar: true
 
-descripcion:
+descripcion: Trabajamos una api
 importante:
-atencion: La modalidad será alternada semanalmente.
+atencion:
 
 horarios:
   - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
@@ -20,4 +20,4 @@ ejercicios:
 videos:
 ---
 
-- Contenidos a definir.
+- Durante la clase de hoy trabajamos sobre la base de una api, routas, controladores y conexión a la base de datos con sequelize
