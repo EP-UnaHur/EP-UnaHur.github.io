@@ -1,23 +1,22 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 4
-inicio: 2026-04-21
-mostrar: false
+inicio: 2026-04-28
+mostrar: true
 
-descripcion:
+descripcion: Esta semana seguimos con sequeliza
 importante:
-atencion: Modalidad presencial.
 
 horarios:
   - Comision: Comisión 3 T.Noche (Prof. Lucas Figarola)
     Dia: 2026-04-21
     Modalidad: PRESENCIAL
-    Hora: 18.00hs
-    Aula:
-    Edificio:
+    Hora: 18.10hs
+    Aula: MA-109
+    Edificio: Edificio Malvinas Argentinas
 
 ejercicios:
 videos:
 ---
 
-- Contenidos a definir.
+- Esta semana vamos a seguir trabajando rutas y controladores, hablaremos de asyncrónismo con Promesas para enteneder como trabajar el ORM Sequelize. Recuerden que ORM son las siglas de Object Relational Mapping, que en español significa "mapeo objeto-relacional".

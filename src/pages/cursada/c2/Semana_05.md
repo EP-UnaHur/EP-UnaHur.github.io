@@ -2,17 +2,16 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 5
 inicio: 2026-04-27
-mostrar: false
+mostrar: true
 
-descripcion:
+descripcion: Esta semana seguimos con sequeliza y arrancamos con middlewares y validaciones de schemas con Joi.
 importante:
-atencion: La modalidad será alternada semanalmente.
 
 horarios:
   - Comision: Comisión 2 T.Noche (Prof. Lucas Figarola)
     Dia: 2026-04-27
     Modalidad: PRESENCIAL
-    Hora: 18.00hs
+    Hora: 18.10hs
     Aula: MA-110
     Edificio: Edificio Malvinas Argentinas
 
@@ -20,4 +19,4 @@ ejercicios:
 videos:
 ---
 
-- Contenidos a definir.
+- Esta semana vamos a continuar con sequealize y comenzaremos con middlewares y la validacion de schemas con Joi.

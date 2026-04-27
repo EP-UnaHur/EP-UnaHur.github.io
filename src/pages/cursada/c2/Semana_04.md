@@ -23,7 +23,7 @@ ejercicios:
 
 videos:
   - nombre: Sequelize
-    urlYoutube: https://drive.google.com/file/d/1Hr6_EnKuzrBTm_hI0qvbm8Ayd9_Lzfe6/view?usp=sharing
+    urlYoutube: https://www.youtube.com/watch?v=HhObL7BZqCo
 ---
 
 - Esta semana vamos a continuar con sequealize y comenzaremos con middlewares
