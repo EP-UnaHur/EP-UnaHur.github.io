@@ -16,6 +16,11 @@ horarios:
     Edificio: Edificio Malvinas Argentinas
 
 ejercicios:
+  - name: Api - Productos - Sequelize - Primero pasos
+    repoUrl: 'EP-UnaHur-2026C1/api-productos-sequelize'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: API Productos
 videos:
 ---
 
