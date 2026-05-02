@@ -22,6 +22,8 @@ ejercicios:
     comentarios:
       - name: Practica Express con Sequelize
 videos:
+  - nombre: Grabación Clase IV - Parte II - (Async/Await)
+    urlYoutube: https://www.youtube.com/watch?v=GvDWYHRhUHk
 ---
 
 - Esta semana continuamo trabajando con la Api. Vamos a continuar con el desarrollo de enpoints y profundizando como trabajar con sequelize
