@@ -22,6 +22,8 @@ ejercicios:
     comentarios:
       - name: Practica Express con Sequelize
 videos:
+  - nombre: Grabación Clase IV - Parte I - (Get/Post/Put/Delete)
+    urlYoutube: https://www.youtube.com/watch?v=TvHOpK-m9wY
   - nombre: Grabación Clase IV - Parte II - (Async/Await)
     urlYoutube: https://www.youtube.com/watch?v=GvDWYHRhUHk
 ---
