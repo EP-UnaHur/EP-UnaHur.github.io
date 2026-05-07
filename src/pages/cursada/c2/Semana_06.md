@@ -13,8 +13,19 @@ horarios:
     Modalidad: VIRTUAL
     Hora: 18.10hs
     URL: https://meet.google.com/tyc-ubgf-dfz
+
 ejercicios:
+  - name: Api - Productos - Sequelize - Primero pasos
+    repoUrl: 'EP-UnaHur-2026C1/api-productos-sequelize'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: API Productos
+
 videos:
+  - nombre: Middlewares (parte 1)
+    urlYoutube: https://www.youtube.com/watch?v=7Eo7K5IVcvk
+  - nombre: Middlewares (parte 2)
+    urlYoutube: https://www.youtube.com/watch?v=ckiVU73h6sw
 ---
 
 Esta semana continuamos trabajando en el diseño de una API. En particular, nos enfocaremos en el manejo de relaciones utilizando Sequelize.
