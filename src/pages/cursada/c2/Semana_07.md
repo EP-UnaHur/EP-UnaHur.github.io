@@ -24,6 +24,12 @@ ejercicios:
     comentarios:
       - name: INSTRUCCIONES-> Un/a integrante del grupo acepta la asignación y procede a dar de alta el grupo (tengan acordado el nombre previamente), luego el resto de los/as integrantes también aceptan la asignación, y se unen a su grupo. La entrega la realizan haciendo push al reposotorio grupal desde cualquiera de los usuarios github del grupo. Podrán hacer los push hasta la fecha/hora límite indicada.
 
+  - name: Api - Productos - Sequelize
+    repoUrl: 'EP-UnaHur-2026C1/api-productos-sequelize-completo'
+    defaultBranch: 'main' # Acá va la rama default del repo
+    comentarios:
+      - name: API Productos
+
 videos:
 ---
 

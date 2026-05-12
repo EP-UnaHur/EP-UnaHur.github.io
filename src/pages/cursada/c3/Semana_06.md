@@ -1,8 +1,8 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 6
-inicio: 2026-05-12
-mostrar: true
+inicio: 2026-05-12Ñ
+mostrar: false
 
 descripcion: Presentación TP Grupal. Middleware y JOI. Relaciones Sequelize
 importante: En esta semana estamos dejando disponible el primer TP Grupal que se deberá entregar antes de la clase del Martes 02-Junio-2026. Vayan cerrando y registrando cuanto antes los grupos en la planilla que se encuentra mas debajo. La plataforma elegida para presentar los TP también es Github classroom. La creación de los grupos se hace en el paso de "Aceptar asignación" la primera vez y lo debe hacer uno de los integrantes del grupo. Luego, el resto del grupo se unen eligiéndolo de la lista de grupos disponibles, también en el paso de "Aceptar asignación". Para los siguientes TP, ya les quedará asociado el usuario de github a un grupo, y solo un docente podrá cambiarlos o quitarlos de ese grupo.
