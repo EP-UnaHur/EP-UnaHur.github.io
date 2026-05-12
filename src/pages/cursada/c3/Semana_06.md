@@ -1,7 +1,7 @@
 ---
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 6
-inicio: 2026-05-12Ñ
+inicio: 2026-05-12
 mostrar: false
 
 descripcion: Presentación TP Grupal. Middleware y JOI. Relaciones Sequelize
