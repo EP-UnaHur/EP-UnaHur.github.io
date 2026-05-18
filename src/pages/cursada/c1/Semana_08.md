@@ -2,22 +2,19 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 8
 inicio: 2026-05-18
-mostrar: false
+mostrar: true
 
-descripcion:
-importante:
-atencion: La modalidad será alternada semanalmente.
+descripcion: Primeros pasos con Docker
 
 horarios:
   - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
     Dia: 2026-05-18
-    Modalidad: PRESENCIAL
-    Hora: 18.00hs
-    Aula: TA-209
-    Edificio: Edificio Trabajo Argentino
+    Modalidad: VIRTUAL
+    Hora: 18.15hs
+    URL: https://meet.google.com/tyc-ubgf-dfz
 
 ejercicios:
 videos:
 ---
 
-- Contenidos a definir.
+- Esta clase nos vamos a dedicar integramente a ver docker. Es un tema muy importante que van a tener que dominar en su vida profesional dentro de la industria del software.
