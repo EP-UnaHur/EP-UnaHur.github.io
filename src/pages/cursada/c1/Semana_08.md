@@ -15,6 +15,10 @@ horarios:
 
 ejercicios:
 videos:
+  - nombre: Introducción a Docker - Parte I
+    urlYoutube: https://youtu.be/55vs9q7sy9A
+  - nombre: Introducción a Docker - Parte II
+    urlYoutube: https://youtu.be/2Z31fMtQiO8
 ---
 
 - Esta clase nos vamos a dedicar integramente a ver docker. Es un tema muy importante que van a tener que dominar en su vida profesional dentro de la industria del software.
