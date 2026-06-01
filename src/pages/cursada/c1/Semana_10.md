@@ -5,7 +5,7 @@ inicio: 2026-06-01
 mostrar: true
 
 descripcion: Mundo NoSQL. MongoDB y Mongoose. Más Docker
-importante: El lunes 01 de Julio es la fecha limite de la entrega de los TPs del Mundo Relacional. Hay tiempo hasta las 18 hs de realizar la entrega.
+importante: El lunes 01 de Junio es la fecha limite de la entrega de los TPs del Mundo Relacional. Hay tiempo hasta las 18 hs de realizar la entrega.
 
 horarios:
   - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
