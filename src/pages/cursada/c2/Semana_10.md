@@ -16,16 +16,18 @@ horarios:
 
 ejercicios:
   - name: EP-Mongo Introduccion
-    verEjercicio: https://github.com/EP-UnaHur-2025C1/mongo-v1
+    verEjercicio: https://github.com/EP-UnaHur-2026C1/api-productos-mongodb
     comentarios:
-      - name: Repositorio generado en EP-Mongo Introduccion - Grabación Clase 2C-2025
-  - name: EP-Mongo más Detalels
+      - name: EP-Mongo Introduccion
+  - name: EP-Mongo más Detalles
     verEjercicio: https://github.com/EP-UnaHur/apiMongoV1
     comentarios:
       - name: Repositorio usado en la Clase 1C-2026 con más detalles.
 videos:
-  - nombre: EP-Mongo Introduccion - Grabación Clase 2C-2025
-    urlYoutube: https://www.youtube.com/watch?v=BEyaztGqFRk
+  - nombre: EP-Mongo Introduccion (Parte 1)
+    urlYoutube: https://www.youtube.com/watch?v=tLEWjVl3Cm8
+  - nombre: EP-Mongo Introduccion (Parte 2)
+    urlYoutube: https://www.youtube.com/watch?v=7DpuccEzZEU
 ---
 
 - A partir de esta semana nos adentramos en el mundo de las bases de datos NoSQL. En particular, trabajaremos con MongoDB, una base de datos documental que almacena la información en documentos JSON-like, ofreciendo gran flexibilidad para modelar y gestionar datos.
