@@ -11,7 +11,7 @@ horarios:
   - Comision: Comisión 1 T.Noche (Prof. Gerardo Gonzalez Tulian)
     Dia: 2026-06-08
     Modalidad: VIRTUAL
-    Hora: 18.00hs
+    Hora: 18.15hs
     URL: https://meet.google.com/tyc-ubgf-dfz
 ejercicios:
   - name: Anti-Social-Mongo
