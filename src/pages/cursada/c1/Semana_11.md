@@ -25,6 +25,6 @@ ejercicios:
 videos:
 ---
 
-- Esta semana continuamos en el mundo NoSQL - Documental con MongoDB utilizando Mongoose. Vamos a repasar la conexión al motor y los distintos médotos que nos da mongoose que dejamos en la documentacion de la sección a <a href="../../material/#mongoose" target="_blank">**Utilidad**▼ Material> Mongoose</a>
+- Esta semana continuamos en el mundo NoSQL - Documental con MongoDB utilizando Mongoose. Vamos a repasar la conexión al motor y los distintos médotos que nos da mongoose que dejamos en la documentacion de la sección a <a href="../../../material/#mongoose" target="_blank">**Utilidad**▼ Material> Mongoose</a>
 
 - Por otro lado, ya quedo disponible el segundo TP de la materia para que empiecen a trabajarlo. La fecha de entrega será el 26-06 a las 23:59.
