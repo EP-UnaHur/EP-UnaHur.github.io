@@ -22,6 +22,10 @@ ejercicios:
       - name: TP de Anti-Social-Mongo
     fechaDeEntrega: Lunes 26-06 23:59 hs
     obligatorio: true
+  - name: Ejemplo Mongo
+    verEjercicio: https://github.com/Nikandro1/EjMongo
+    comentarios:
+      - name: Repositorio trabajado en clase con ejemplo de todos los metodos y de busquedas avanzada -
 videos:
 ---
 
