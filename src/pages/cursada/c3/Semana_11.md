@@ -22,8 +22,12 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: TP de Anti-Social-Mongo
-    fechaDeEntrega: Lunes 26-06 23:59 hs
+    fechaDeEntrega: Viernes 26-06 23:59 hs
     obligatorio: true
+  - name: Ejemplo Mongo
+    verEjercicio: https://github.com/EP-UnaHur-2026C1/api-productos-mongoose
+    comentarios:
+      - name: API Productos
 videos:
 ---
 

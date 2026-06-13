@@ -20,7 +20,7 @@ ejercicios:
     defaultBranch: 'main' # Acá va la rama default del repo
     comentarios:
       - name: TP de Anti-Social-Mongo
-    fechaDeEntrega: Lunes 26-06 23:59 hs
+    fechaDeEntrega: Viernes 26-06 23:59 hs
     obligatorio: true
   - name: Ejemplo Mongo
     verEjercicio: https://github.com/Nikandro1/EjMongo
