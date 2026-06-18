@@ -15,7 +15,15 @@ horarios:
     URL: https://meet.google.com/tyc-ubgf-dfz
 
 ejercicios:
+  - name: API Productos
+    verEjercicio: https://github.com/EP-UnaHur-2026C1/api-productos-redis/
+    comentarios:
+      - name: API Productos
 videos:
+  - nombre: EP-Mongo
+    urlYoutube: https://www.youtube.com/watch?v=df31-ADndho
+  - nombre: EP-Redis
+    urlYoutube: https://www.youtube.com/watch?v=27pg6W5DG9I
 ---
 
 - Esta semana continuamos trabajando con Mongoose.
