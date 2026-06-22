@@ -2,22 +2,30 @@
 layout: src/layouts/PostCursadaLayout.astro
 title: Semana 12
 inicio: 2026-06-16
-mostrar: false
+mostrar: true
 
-descripcion:
+descripcion: Esta semana continuamos trabajando con Mongoose. Y además vamos a ver como utilizar redis como caché de nuestra api.
 importante:
-atencion: NO HAY CLASE. Paso a la Inmortalidad del Gral. Don Martín Miguel de Güemes
 
 horarios:
   - Comision: Comisión 3 T.Noche (Prof. Lucas Figarola)
     Dia: 2026-06-16
-    Modalidad: FERIADO
-    Hora: 18.00hs
-    Aula:
-    Edificio:
+    Modalidad: VIRTUAL
+    Hora: 18.15hs
+    URL: https://meet.google.com/tyc-ubgf-dfz
 
 ejercicios:
+  - name: API Productos
+    verEjercicio: https://github.com/EP-UnaHur-2026C1/api-productos-redis/
+    comentarios:
+      - name: API Productos
 videos:
+  - nombre: EP-Mongo
+    urlYoutube: https://www.youtube.com/watch?v=df31-ADndho
+  - nombre: EP-Redis
+    urlYoutube: https://www.youtube.com/watch?v=27pg6W5DG9I
 ---
 
-- **FERIADO NACIONAL**: Paso a la Inmortalidad del Gral. Don Martín Miguel de Güemes. No se dictarán clases.
+- Esta semana continuamos trabajando con Mongoose.
+
+- Además vamos a ver como utilizar redis como caché de nuestra api
