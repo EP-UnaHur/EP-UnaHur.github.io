@@ -19,7 +19,7 @@ ejercicios:
       - name: Repo trabajado con Redis en clase por la comisión 1. -Gerardo-
 videos:
   - nombre: Clase Redis - Gerardo
-    urlYoutube: https://www.youtube.com/watch?v=wA_emca_dX0
+    urlYoutube: https://www.youtube.com/watch?v=XnuT7-b-6to
 ---
 
 - Esta semana vamos a ver como utilizar redis como caché de nuestra api
