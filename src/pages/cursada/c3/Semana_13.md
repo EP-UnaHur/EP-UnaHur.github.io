@@ -5,7 +5,7 @@ inicio: 2026-06-23
 mostrar: true
 
 descripcion: Clase de consulta.
-importante:
+importante: Clase de consulta.
 atencion: La clase de hoy será solo de consultas para el Trabajo Práctico.
 
 horarios:
